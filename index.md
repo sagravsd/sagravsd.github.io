@@ -6,16 +6,8 @@ tags: ios, forensics
 ---
 Welcome to my blog!
 ---
-# Mobile Forensics - Analyzing Data Stored by Meetup Application on iOS Devices
-*Dec 9, 2024 • Arshiya Jamadar*
+# Mobile Forensics - Initial Findings: Security Testing of Word Trip Data on iOS
+*Release 1*
 
 ---
-
-**Share on:**
-- [Twitter](#)
-- [Facebook](#)
-- [LinkedIn](#)
-
----
-
-The aim of this blog is to understand data stored by Meetup and research on how and what kind of information is stored on a user’s mobile.
+This blog is for informational purposes only, based on initial analysis and security testing of the data stored in the Word Trip app installed and used on an iOS mobile device.
