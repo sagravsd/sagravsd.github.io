@@ -6,7 +6,7 @@ tags: ios, forensics
 ---
 This blog aims to identify the recovered relevant artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance.
 ---
-# Mobile Forensics - Initial Findings: Security Testing of Word Trip Data on iOS
+# Initial Findings: Security Testing of Wordtrip Data on iOS
 *Release 1*
 
 ---
@@ -21,6 +21,34 @@ Word Trip is a word puzzle game app where you connect letters on a board to find
 ### Application Details
 - **Name**: Wordtrip
 - **Version**: 1.446.0 v.2024.11.14 (632295)
-- We logged in as a test user with the name Beaufort and added interests.
 
-Using another account, we created a test event located in downtown Portland. The user joined this event and interacted with the group by texting, adding comments, sending pictures and adding this event to the calendar.
+### Device Details
+
+The device used for testing this app was an **iPhone 6s** (Model MN1M2LL/A) with **iOS version 15.8.3**. A full file system image of this mobile was acquired for the analysis. To achieve this, we used **Cellebrite**, which ran the **checkra1n jailbreak** to gain privileged access to the phone to get all possible files. Multiple images were taken at different times to check the difference in data stored in cache.
+
+### Software Used
+
+Due to the kind and amount of data in the iOS image, we used multiple software for our analysis. A link to all of these tools is mentioned in the reference section of the blog.
+
+| Software                  | Version    | Purpose                          |
+|---------------------------|------------|----------------------------------|
+| **Autopsy**                | 4.21.0     | Analyzing image                 |
+| **iLeapp**                 | 1.18.6     | Analyzing image, Protobuf parsing|
+| **Cellebrite**             | 7.65.0.247 | Image collection                |
+| **MacForensic Deserializer**| v1.5.1    | Analyze plists                  |
+| **PList Editor**           | 1.9.7      | Analyze plists                  |
+| **DB Browser for SQLite**  | 3.13.0     | Open SQLite database files      |
+| **jsonformatter.org**      | -          | Format JSON data                |
+
+## Analysis
+
+As per our analysis, we can see that the majority of the user-related data is stored only in **2 database files** – cache and Apollo. Mainly, the portion accessed multiple times is retained in the phone’s storage in the form of cache for quick access. This section will go into detail on where Meetup stores its data on the device.
+
+### Locations of Data Storage
+The following locations had the most useful data stored in it:
+
+- **/private/var/mobile/Containers/Data/Application/<App ID>/Library**
+- **/private/var/containers/Bundle/Application/<App ID>/Meetup.app**
+
+These folders contained app data, including caches, user data, and app metadata.
+
