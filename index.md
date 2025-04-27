@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Mobile Forensics - Initial Findings: Security Testing of Word Trip Data on iOS
+title: Initial Findings of Wordtrio Data on iOS
 categories: forensics, mobile
 tags: ios, forensics
 ---
