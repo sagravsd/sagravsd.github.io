@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Initial Findings of Wordtrio Data on iOS
+title: Mobile Forensics
 categories: forensics, mobile
 tags: ios, forensics
 ---
-Welcome to my blog!
+This blog aims to identify the recovered relevant artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance.
 ---
 # Mobile Forensics - Initial Findings: Security Testing of Word Trip Data on iOS
 *Release 1*
