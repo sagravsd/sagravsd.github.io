@@ -1,8 +1,7 @@
 ---
 layout: home
-title: Welcome
+title: Mobile Forensics
 ---
-
 Welcome to my blog!
 
 <ul>
