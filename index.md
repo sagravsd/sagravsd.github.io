@@ -4,7 +4,8 @@ title: Mobile Forensics
 categories: forensics, mobile
 tags: ios, forensics
 ---
-This blog aims to identify the recovered relevant artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance.
+This blog is for informational purposes only, based on initial analysis and security testing of the data stored in the Word Trip app installed and used on an iOS mobile device.
+
 ---
 # Initial Findings: Security Testing of Wordtrip Data on iOS
 *Release 1*
