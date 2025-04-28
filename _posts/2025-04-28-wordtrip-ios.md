@@ -48,10 +48,36 @@ Due to the kind and amount of data in the iOS image, we used multiple software f
 The analysis focused on these objectives:
 
 ### 1. Personal Information
+   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely.
+   - **Procedure:** Check what information is collected and if it sent securely (using HTTPS or another secure method); check that the app has a clear privacy policy explaining how personal information is used and shared. Verify that uses can control what personal information they want to share and can turn off data collection.
+   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
+   - **Actual Outcome:**
+
+### 2. Device Information
+   - **Objective:** Ensure device information is collected and used securely. 
+   - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifies are protected or anonymized.
+   - **Expected Outcome:** Personal device information is collected only when needed, transmitted securely, and protected; Users can manage or delete their device information when they want.
+   - **Actual Outcome:**
+
+### 3. Personal Information
    - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
    - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
    - **Actual Outcome:**
 
+### 4. Personal Information
+   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
+   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
+   - **Actual Outcome:**
+
+### 5. Personal Information
+   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
+   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
+   - **Actual Outcome:**
+
+### 6. Personal Information
+   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
+   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
+   - **Actual Outcome:**
 
 ### Locations of Data Storage
 The following locations had the most useful data stored in it:
