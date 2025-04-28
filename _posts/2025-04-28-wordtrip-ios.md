@@ -48,9 +48,9 @@ Due to the kind and amount of data in the iOS image, we used multiple software f
 The analysis focused on these objectives:
 
 ### 1. Personal Information
-  - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
-  - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
-  - **Actual Outcome:**
+   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
+   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
+   - **Actual Outcome:**
 
 
 ### Locations of Data Storage
@@ -65,11 +65,11 @@ These folders contained app data, including caches, user data, and app metadata.
 
 Below is a list of software tools utilized for analysis and the collection of relevant artifacts.
 
-| Software                  | Link    |
-|---------------------------|------------|
+| Software                 | Link    |
+|--------------------------|------------|
 | **Autopsy**                | https://www.autopsy.com/download/ |
-| **DB Browser for SQLite**  | https://sqlitebrowser.org/dl/ |
-| **iBackupViewer**          | https://ibackupviewer.com/           |
-| **iLeapp**                 | https://github.com/abrignoni/iLEAPP |
-| **3uTools**                | https://www.3u.com/|
+| **DB Browser for SQLite**| https://sqlitebrowser.org/dl/ |
+| **iBackupViewer**        | https://ibackupviewer.com/           |
+| **iLeapp**               | https://github.com/abrignoni/iLEAPP |
+| **3uTools**              | https://www.3u.com/|
 
