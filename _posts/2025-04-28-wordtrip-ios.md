@@ -7,7 +7,7 @@ categories: iOS forensics
 *Release 1*
 
 ---
-This blog aims to identify the recovered relevant artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance. 
+This blog aims to identify the recovered artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance. 
 
 The type of data collected include:
 - Personal Information (name, email address, IPs, etc.)
@@ -51,13 +51,13 @@ The analysis focused on these objectives:
    - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely.
    - **Procedure:** Check what information is collected and if it sent securely (using HTTPS or another secure method); check that the app has a clear privacy policy explaining how personal information is used and shared. Verify that uses can control what personal information they want to share and can turn off data collection.
    - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
-   - **Actual Outcome:**
+   - **Artifacts:**
 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
    - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifies are protected or anonymized.
    - **Expected Outcome:** Personal device information is collected only when needed, transmitted securely, and protected; Users can manage or delete their device information when they want.
-   - **Actual Outcome:**
+   - **Artifacts:**
 
 ### 3. Location history and GPS Data
    - **Objective:** Analyze GPS and location history data to determine the movements of the device user during the timeframe of interest. 
@@ -67,7 +67,7 @@ The analysis focused on these objectives:
       - Dates and times of location data
       - Patterns of movement
    - **Expected Outcome:** A map or list of locations visited, along with timestamps indicating when the user was at each location.
-   - **Actual Outcome:**
+   - **Artifacts:**
 
 ### 4. System Logs 
    - **Objective:** Extract and analyze system logs, including device activity logs and app installs and usage history. 
@@ -77,14 +77,16 @@ The analysis focused on these objectives:
       - System logs for device behavior
       - Any errors or abnormal activity
    - **Expected Outcome:** A record of app installations, deletions, and system activity related to the time of interest.
-
+   - **Artifacts:**
+     
 ### 5. Other Data
    - **Objective:** Review app data to identify any relevant evidence from timestamps, browser details, etc. 
    - **Procedure:** As appropriate, extract app-specific data, such as timestamps, browser details, account information, and usage patterns.
    - **Analysis Points:** 
       - App activity logs
       - Account data 
-- **Expected Outcome:** A list of relevant data not otherwise defined that can demonstrate insecure endpoints or risks associated with using the app.
+   - **Expected Outcome:** A list of relevant data not otherwise defined that can demonstrate insecure endpoints or risks associated with using the app.
+   - **Artifacts:**
 
 ### Locations of Data Storage
 The following locations had the most useful data stored in it:
@@ -100,7 +102,7 @@ Below is a list of software tools utilized for analysis and the collection of re
 
 | Software                 | Link    |
 |--------------------------|------------|
-| **Autopsy**                | https://www.autopsy.com/download/ |
+| **Autopsy**              | https://www.autopsy.com/download/ |
 | **DB Browser for SQLite**| https://sqlitebrowser.org/dl/ |
 | **iBackupViewer**        | https://ibackupviewer.com/           |
 | **iLeapp**               | https://github.com/abrignoni/iLEAPP |
