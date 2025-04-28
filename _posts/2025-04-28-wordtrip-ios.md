@@ -29,7 +29,7 @@ Word Trip is a word puzzle game app where you connect letters on a board to find
 
 ### Device Details
 
-The device used for testing this app was an **iPhone 6s** (Model MN1M2LL/A) with **iOS version 15.8.3**. A full file system image of this mobile was acquired for the analysis. To achieve this, we used **Cellebrite**, which ran the **checkra1n jailbreak** to gain privileged access to the phone to get all possible files. Multiple images were taken at different times to check the difference in data stored in cache.
+The device used for testing this app was an **iPhone 8** (Model MQ6V2LL/A) with **iOS version 16.7.10**. A full file system image of this mobile was acquired for the analysis. To achieve this, we used **Autopsy** to analyze the full system image. Multiple images were taken at different times to check the difference in data stored and app behavior.
 
 ### Software Used
 
