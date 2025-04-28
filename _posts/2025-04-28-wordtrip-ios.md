@@ -4,13 +4,12 @@ title: "Initial Findings: Security Testing of Word Trip Data on iOS"
 date: 2025-04-28
 categories: iOS forensics
 ---
-This blog aims to identify the recovered relevant artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance.
 ---
 # Initial Findings: Security Testing of Wordtrip Data on iOS
 *Release 1*
 
 ---
-This blog is for informational purposes only, based on initial analysis and security testing of the data stored in the Word Trip app installed and used on an iOS mobile device.
+This blog aims to identify the recovered relevant artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance.
 
 ## App Description
 
