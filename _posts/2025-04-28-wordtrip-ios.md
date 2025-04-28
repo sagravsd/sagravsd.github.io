@@ -7,12 +7,14 @@ categories: iOS forensics
 *Release 1*
 
 ---
-This blog aims to identify the recovered relevant artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance. The type of data collected include:
-•	Personal Information (name, email address, IPs, etc.)
-•	Device Information
-•	Location history and GPS data
-•	System logs (app information and performance, device activity, app installs)
-•	Other data (timestamps, browser details, etc.)
+This blog aims to identify the recovered relevant artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance. 
+
+The type of data collected include:
+- Personal Information (name, email address, IPs, etc.)
+- Device Information
+- Location history and GPS data
+- System logs (app information and performance, device activity, app installs)
+- Other data (timestamps, browser details, etc.)
 
 
 ## App Description
