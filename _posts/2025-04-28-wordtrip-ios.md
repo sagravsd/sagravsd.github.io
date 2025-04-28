@@ -45,7 +45,13 @@ Due to the kind and amount of data in the iOS image, we used multiple software f
 
 ## Analysis
 
-As per our analysis, we can see that the majority of the user-related data is stored only in **2 database files** – cache and Apollo. Mainly, the portion accessed multiple times is retained in the phone’s storage in the form of cache for quick access. This section will go into detail on where Meetup stores its data on the device.
+The analysis focused on these objectives:
+
+### 1. Personal Information
+       - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
+      - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
+       - **Actual Outcome:**
+
 
 ### Locations of Data Storage
 The following locations had the most useful data stored in it:
