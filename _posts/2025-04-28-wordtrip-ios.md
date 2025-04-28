@@ -59,25 +59,32 @@ The analysis focused on these objectives:
    - **Expected Outcome:** Personal device information is collected only when needed, transmitted securely, and protected; Users can manage or delete their device information when they want.
    - **Actual Outcome:**
 
-### 3. Personal Information
-   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
-   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
+### 3. Location history and GPS Data
+   - **Objective:** Analyze GPS and location history data to determine the movements of the device user during the timeframe of interest. 
+   - **Procedure:** Extract and analyze location data from apps (e.g., Google Maps, Apple Maps), system logs, and geotagged media.
+   - **Analysis Points:** 
+      -- Locations visited (via GPS data or app history)
+      -- Dates and times of location data
+      -- Patterns of movement
+   - **Expected Outcome:** A map or list of locations visited, along with timestamps indicating when the user was at each location.
    - **Actual Outcome:**
 
-### 4. Personal Information
-   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
-   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
-   - **Actual Outcome:**
+### 4. System Logs 
+   - **Objective:** Extract and analyze system logs, including device activity logs and app installs and usage history. 
+   - **Procedure:** Retrieve and analyze logs from the device (e.g., app installs, device settings changes).
+   - **Analysis Points:** 
+      -- Date and time of app installations/uninstallations
+      -- System logs for device behavior
+      -- Any errors or abnormal activity
+   - **Expected Outcome:** A record of app installations, deletions, and system activity related to the time of interest.
 
-### 5. Personal Information
-   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
-   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
-   - **Actual Outcome:**
-
-### 6. Personal Information
-   - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely. 
-   - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
-   - **Actual Outcome:**
+### 5. Other Data
+   - **Objective:** Review app data to identify any relevant evidence from timestamps, browser details, etc. 
+   - **Procedure:** As appropriate, extract app-specific data, such as timestamps, browser details, account information, and usage patterns.
+   - **Analysis Points:** 
+      -- App activity logs
+      -- Account data 
+- **Expected Outcome:** A list of relevant data not otherwise defined that can demonstrate insecure endpoints or risks associated with using the app.
 
 ### Locations of Data Storage
 The following locations had the most useful data stored in it:
