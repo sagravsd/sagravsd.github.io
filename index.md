@@ -52,18 +52,15 @@ The following locations had the most useful data stored in it:
 
 These folders contained app data, including caches, user data, and app metadata.
 
-### References
+## References
 
-Due to the kind and amount of data in the iOS image, we used multiple software for our analysis. A link to all of these tools is mentioned in the reference section of the blog.
+Below is a list of software tools utilized for analysis and the collection of relevant artifacts.
 
-| Software                  | Download    |
-|---------------------------|------------|----------------------------------|
-| **Autopsy**                | 4.21.0     | Analyzing image                 |
-| **iLeapp**                 | 1.18.6     | Analyzing image, Protobuf parsing|
-| **Cellebrite**             | 7.65.0.247 | Image collection                |
-| **MacForensic Deserializer**| v1.5.1    | Analyze plists                  |
-| **PList Editor**           | 1.9.7      | Analyze plists                  |
-| **DB Browser for SQLite**  | 3.13.1    | [Open SQLite database files](https://sqlitebrowser.org/dl/)      |
-| **jsonformatter.org**      | -          | Format JSON data                |
-
+| Software                  | Link    |
+|---------------------------|------------|
+| **Autopsy**                | https://www.autopsy.com/download/ |
+| **DB Browser for SQLite**  | https://sqlitebrowser.org/dl/ |
+| **iBackupViewer**          | https://ibackupviewer.com/           |
+| **iLeapp**                 | https://github.com/abrignoni/iLEAPP |
+| **3uTools**                | https://www.3u.com/|
 
