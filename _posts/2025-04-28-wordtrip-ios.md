@@ -38,12 +38,10 @@ Due to the kind and amount of data in the iOS image, we used multiple software f
 | Software                  | Version    | Purpose                          |
 |---------------------------|------------|----------------------------------|
 | **Autopsy**                | 4.21.0     | Analyzing image                 |
-| **iLeapp**                 | 1.18.6     | Analyzing image, Protobuf parsing|
-| **Cellebrite**             | 7.65.0.247 | Image collection                |
-| **MacForensic Deserializer**| v1.5.1    | Analyze plists                  |
-| **PList Editor**           | 1.9.7      | Analyze plists                  |
-| **DB Browser for SQLite**  | 3.13.1    | Open SQLite database files      |
-| **jsonformatter.org**      | -          | Format JSON data                |
+| **DB Browser for SQLite**  | 1.18.6     | Open SQLite database files|
+| **iBackupViewer**          | 7.65.0.247 | View iOS device backups    |
+| **iLeapp**| v1.5.1    | Analyzing image, Protobuf parsing                  |
+| **3uTools**           | 1.9.7      | View iOS device backups               |
 
 ## Analysis
 
