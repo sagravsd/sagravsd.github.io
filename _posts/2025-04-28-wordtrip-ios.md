@@ -5,7 +5,6 @@ date: 2025-04-28
 categories: iOS forensics
 ---
 ---
-# Initial Findings: Security Testing of Wordtrip Data on iOS
 *Release 1*
 
 ---
