@@ -56,9 +56,6 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Artifacts:**
 
 <img src="/img/P1.JPG" alt="IP">
-![My Image](https://sagravsd.github.io/img/P1.JPG)
-
-
 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
