@@ -56,6 +56,8 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Artifacts:**
 
 <img src="/img/P1.jpg" alt="IP">
+![My Image](https://sagravsd.github.io/img/P1.jpg)
+
 
 
 ### 2. Device Information
