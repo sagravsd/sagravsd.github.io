@@ -55,6 +55,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
    - **Artifacts:**
 
+![Alt text](/img/P1.jpg)
 
 
 ### 2. Device Information
