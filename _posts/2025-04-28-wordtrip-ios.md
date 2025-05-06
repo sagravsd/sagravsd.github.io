@@ -43,15 +43,19 @@ Due to the kind and amount of data in the iOS image, we used multiple software f
 | **iLeapp**| v1.5.1    | Analyzing image, Protobuf parsing                  |
 | **3uTools**           | 1.9.7      | View iOS device backups               |
 
-## Analysis
+## Testing and Analysis
 
-The analysis focused on these objectives:
+Testing of the app accounted for the fact that all requested permissions, including notification access, were granted. The app was used over a one-month period to allow sufficient time for data collection and domain interactions.
+
+Analysis was conducted in accordance with the objectives specified in the test cases:
 
 ### 1. Personal Information
    - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely.
    - **Procedure:** Check what information is collected and if it sent securely (using HTTPS or another secure method); check that the app has a clear privacy policy explaining how personal information is used and shared. Verify that uses can control what personal information they want to share and can turn off data collection.
    - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
    - **Artifacts:**
+
+
 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
