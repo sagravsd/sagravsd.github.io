@@ -55,8 +55,8 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
    - **Artifacts:**
 
-<img src="/img/P1.jpg" alt="IP">
-![My Image](https://sagravsd.github.io/img/P1.jpg)
+<img src="/img/P1.JPG" alt="IP">
+![My Image](https://sagravsd.github.io/img/P1.JPG)
 
 
 
