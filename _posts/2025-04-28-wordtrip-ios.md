@@ -86,7 +86,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
    - **Artifacts:**  Although secure transmission of data is mentioned and security practices are described, there is no explicit mention of HTTPS or TLS protocols for data transmission.
 
-   The x-bplist (binary property list) file contains the public IP address in the device used for this testing. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.
+<p style="margin-left: 40px;">The x-bplist (binary property list) file contains the public IP address in the device used for this testing. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.</p>
 
 <img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 40px;">
   
