@@ -84,23 +84,19 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Objective:** Ensure that personal information is collected, stored, and shared properly and securely.
    - **Procedure:** Check what information is collected and if it sent securely (using HTTPS or another secure method); check that the app has a clear privacy policy explaining how personal information is used and shared. Verify that uses can control what personal information they want to share and can turn off data collection.
    - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
-   - **Artifacts:**
+   - **Artifacts:**  Although secure transmission of data is mentioned and security practices are described, there is no explicit mention of HTTPS or TLS protocols for data transmission.
 
 The x-bplist (binary property list) file contains the public IP address in the device used for this testing. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.
 
 <img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 0;">
-
-- **Recommendation:**  Although secure transmission of data is mentioned and security practices are described, there is no explicit mention of HTTPS or TLS protocols for data transmission.
   
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
    - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifies are protected or anonymized.
    - **Expected Outcome:** Personal device information is collected only when needed, transmitted securely, and protected; Users can manage or delete their device information when they want.
    - **Artifacts:**
-
-- **Recommendations:**
-   - **Device identifiers are protected or anonymized:** The policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. 
-   - **Secure transmission of device information:**  There is no clear mention of requesting user permission for collecting device information and the policy does not explicitly confirm the use of HTTPS or other secure transfer protocols. Evidence indicates that information is sent in clear text.  
+      - **Device identifiers are protected or anonymized:** The policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. 
+      - **Secure transmission of device information:**  There is no clear mention of requesting user permission for collecting device information and the policy does not explicitly confirm the use of HTTPS or other secure transfer protocols. Evidence indicates that information is sent in clear text.  
 
 ### 3. Location history and GPS Data
    - **Objective:** Analyze GPS and location history data to determine the movements of the device user during the timeframe of interest. 
@@ -111,9 +107,7 @@ The x-bplist (binary property list) file contains the public IP address in the d
       - Patterns of movement
    - **Expected Outcome:** A map or list of locations visited, along with timestamps indicating when the user was at each location.
    - **Artifacts:**
-
-- **Recommendations:**
-   - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP), however, evidence suggests.
+      - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP), however, evidence suggests.
 
 ### 4. System Logs 
    - **Objective:** Extract and analyze system logs, including device activity logs and app installs and usage history. 
