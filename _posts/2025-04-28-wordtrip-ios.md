@@ -91,7 +91,7 @@ The x-bplist (binary property list) file contains the public IP address in the d
 <img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 0;">
 
 - **Recommendation:**  Although secure transmission of data is mentioned and security practices are described, there is no explicit mention of HTTPS or TLS protocols for data transmission.
-- 
+  
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
    - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifies are protected or anonymized.
