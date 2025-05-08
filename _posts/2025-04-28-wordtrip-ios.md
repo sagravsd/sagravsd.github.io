@@ -21,6 +21,30 @@ The type of data collected include:
 
 Word Trip is a word puzzle game app where you connect letters on a board to find hidden words. As you complete the puzzles, the puzzle games become more challenging. The user can earn points, use power-ups, and can compete with friends to see who can solve puzzles the fastest.
 
+## App Privacy Policy
+
+PlaySimple, creators of the Word Trip app, collect three main categories of data: data provided by users, data collected automatically, and data obtained from partners.
+
+### 1. Data You Provide
+- Player and profile info: Name, alias, email, phone number, profile photo.
+- In-game communications: Support tickets, chat logs.
+- Other optional info: Details to recover accounts or any voluntarily shared data.
+
+### 2. Data Collected Automatically
+- Device and network info: IP address, device ID, device name, OS, language.
+- Game data: Game account details, progress, gameplay behavior, social interactions.
+- Performance/debug data: Crash logs, performance metrics.
+- Approximate location: Inferred from your IP address.
+- Cookies & tracking tech: Used for fraud detection, ad personalization, analytics.
+
+### 3. Data from Partners
+- Social platforms (e.g., Facebook, Google, Apple): Based on your privacy settings.
+- Advertisers/analytics: Data to enhance ads and services (e.g., demographics, purchase data, ad interactions).
+- Fraud prevention data: Refund and transaction behavior.
+
+#### Sharing of Data:
+Data may be shared with service providers, affiliates, advertisers, payment processors, other players (via social features), and authorities (if required).
+
 ## Testing Objectives and Analysis Procedures
 
 ### Application Details
