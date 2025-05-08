@@ -98,6 +98,11 @@ The x-bplist (binary property list) file contains the public IP address in the d
    - **Expected Outcome:** Personal device information is collected only when needed, transmitted securely, and protected; Users can manage or delete their device information when they want.
    - **Artifacts:**
 
+- **Recommendations:**
+   - **Device identifiers are protected or anonymized:** The policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. 
+   - **Secure transmission of device information:** The policy does not explicitly confirm the use of HTTPS or other secure transfer protocols. Evidence indicates that information is sent in clear text. 
+  
+
 ### 3. Location history and GPS Data
    - **Objective:** Analyze GPS and location history data to determine the movements of the device user during the timeframe of interest. 
    - **Procedure:** Extract and analyze location data from apps (e.g., Google Maps, Apple Maps), system logs, and geotagged media.
