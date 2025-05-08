@@ -34,7 +34,7 @@ This includes any personal information or content voluntarily submitted by the p
 - Other Voluntary Submissions: Any additional personal information the player chooses to share during gameplay or through customer support interactions.
 
 #### 2. Data Collected Automatically
-This data is collected by our systems when the player interacts with our Services:
+This data is collected when the player interacts with app:
 - Game Account Information: Account identifiers, game progress, and user preferences.
 - Device and Network Information: Mobile device identifiers, IP address, device model, operating system, and language settings.
 - Usage and Performance Data: Information related to gameplay behavior, in-app interactions, and application performance (e.g., crash reports).
@@ -90,6 +90,8 @@ The x-bplist (binary property list) file contains the public IP address in the d
 
 <img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 0;">
 
+- **Recommendation:**  Although secure transmission of data is mentioned and security practices are described, there is no explicit mention of HTTPS or TLS protocols for data transmission.
+- 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
    - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifies are protected or anonymized.
