@@ -25,22 +25,29 @@ Word Trip is a word puzzle game app where you connect letters on a board to find
 
 PlaySimple, creators of the Word Trip app, collect three main categories of data: data provided by users, data collected automatically, and data obtained from partners.
 
-#### 1. Data You Provide
-- Player and profile info: Name, alias, email, phone number, profile photo.
-- In-game communications: Support tickets, chat logs.
-- Other optional info: Details to recover accounts or any voluntarily shared data.
+#### 1. Data Provided by the Player
+
+This includes any personal information or content voluntarily submitted by the player while using the app:
+- Player and Profile Information: Name (real or alias), contact details (e.g., email address, phone number), and profile photo.
+- In-Game Communications: Messages and content submitted within the game, such as support tickets and chat logs.
+- Account Recovery Information: Details provided by the player to help recover or verify ownership of a game account.
+- Other Voluntary Submissions: Any additional personal information the player chooses to share during gameplay or through customer support interactions.
 
 #### 2. Data Collected Automatically
-- Device and network info: IP address, device ID, device name, OS, language.
-- Game data: Game account details, progress, gameplay behavior, social interactions.
-- Performance/debug data: Crash logs, performance metrics.
-- Approximate location: Inferred from your IP address.
-- Cookies & tracking tech: Used for fraud detection, ad personalization, analytics.
+This data is collected by our systems when the player interacts with our Services:
+- Game Account Information: Account identifiers, game progress, and user preferences.
+- Device and Network Information: Mobile device identifiers, IP address, device model, operating system, and language settings.
+- Usage and Performance Data: Information related to gameplay behavior, in-app interactions, and application performance (e.g., crash reports).
+- Location Data: Approximate geographic location inferred from the IP address.
+- Cookies and Tracking Technologies: Data gathered through cookies and similar technologies used for analytics, personalization, fraud prevention, and advertising purposes.
 
 #### 3. Data from Partners
-- Social platforms (e.g., Facebook, Google, Apple): Based on your privacy settings.
-- Advertisers/analytics: Data to enhance ads and services (e.g., demographics, purchase data, ad interactions).
-- Fraud prevention data: Refund and transaction behavior.
+The Word Trip app may receive data from external partners and service providers, depending on the player's interactions and privacy settings:
+- Social Platform Integrations: Information shared via the player’s privacy settings on third-party platforms (e.g., Facebook, Google, Apple).
+- Demographic and Location Data: Approximate demographic details or geographic location inferred through partner services.
+- Advertising and Analytics Data: Information from advertising networks and analytics providers used to improve ad targeting and service quality.
+- Payment and Purchase Verification: Transaction data from app stores or payment processors used to confirm purchases and prevent fraud.
+- Fraud Detection and Prevention: Data used to identify suspicious behavior, reduce refund abuse, and improve overall security.
 
 #### Sharing of Data:
 Data may be shared with service providers, affiliates, advertisers, payment processors, other players (via social features), and authorities (if required).
