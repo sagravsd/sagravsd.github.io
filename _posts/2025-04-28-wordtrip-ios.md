@@ -100,8 +100,7 @@ The x-bplist (binary property list) file contains the public IP address in the d
 
 - **Recommendations:**
    - **Device identifiers are protected or anonymized:** The policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. 
-   - **Secure transmission of device information:** The policy does not explicitly confirm the use of HTTPS or other secure transfer protocols. Evidence indicates that information is sent in clear text. 
-  
+   - **Secure transmission of device information:**  There is no clear mention of requesting user permission for collecting device information and the policy does not explicitly confirm the use of HTTPS or other secure transfer protocols. Evidence indicates that information is sent in clear text.  
 
 ### 3. Location history and GPS Data
    - **Objective:** Analyze GPS and location history data to determine the movements of the device user during the timeframe of interest. 
@@ -113,6 +112,9 @@ The x-bplist (binary property list) file contains the public IP address in the d
    - **Expected Outcome:** A map or list of locations visited, along with timestamps indicating when the user was at each location.
    - **Artifacts:**
 
+- **Recommendations:**
+   - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP), however, evidence suggests.
+
 ### 4. System Logs 
    - **Objective:** Extract and analyze system logs, including device activity logs and app installs and usage history. 
    - **Procedure:** Retrieve and analyze logs from the device (e.g., app installs, device settings changes).
@@ -122,6 +124,10 @@ The x-bplist (binary property list) file contains the public IP address in the d
       - Any errors or abnormal activity
    - **Expected Outcome:** A record of app installations, deletions, and system activity related to the time of interest.
    - **Artifacts:**
+      - **App installation/uninstallation timestamps:** The policy does not mention collecting logs about when apps are installed or uninstalled. However, evidence indicates that there is a record of this.
+      - **System logs or device behavior history:** There is no reference collecting system-level logs or OS activity like settings changes, crashes outside the app, or device usage history.  
+      - **Errors or abnormal activity (in-app):** The policy references collecting "application performance and debugging information" — likely limited to app-level crash reports or in-game errors.  
+      - **General device log retrieval or system diagnostics:** No reference to full system diagnostics or general device logs beyond the scope of the app.  
      
 ### 5. Other Data
    - **Objective:** Review app data to identify any relevant evidence from timestamps, browser details, etc. 
@@ -131,6 +137,11 @@ The x-bplist (binary property list) file contains the public IP address in the d
       - Account data 
    - **Expected Outcome:** A list of relevant data not otherwise defined that can demonstrate insecure endpoints or risks associated with using the app.
    - **Artifacts:**
+      - **App activity logs (e.g., timestamps, usage):** The policy mentions collecting gameplay data, interactions with others, and performance/debugging information. However, it does not clarify whether detailed timestamps or event-level logs are captured.
+      - **Browser details:** There is no reference collecting system-level logs or OS activity like settings changes, crashes outside the app, or device usage history.  
+      - **Account data:** The policy references that player name, profile, contact info, game account details, and purchase history are collected.  
+      - **Usage patterns:** The policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
+      - **Evidence of insecure endpoints or risks:** There's no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
 
 ### Locations of Data Storage
 The following locations had the most useful data stored in it:
