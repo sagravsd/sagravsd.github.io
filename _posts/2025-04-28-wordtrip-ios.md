@@ -55,8 +55,9 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** Personal info is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
    - **Artifacts:**
 
-The file containing my public IP address—and the file type I searched in—is an x-bplist (binary property list) file. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.
-<img src="/img/P1.JPG" alt="IP" width="400">
+The x-bplist (binary property list) file contains the public IP address in the device used for this testing. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.
+
+<img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 0;">
 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
