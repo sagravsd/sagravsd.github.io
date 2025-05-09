@@ -102,7 +102,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;">The image below shows data collected by the Word Trip.</p>
                                                                                                       
 <p style="margin-left: 30px;"><strong>Figure 4:</strong></p>
-<img src="/img/P4.JPG" alt="IP" width="1250" style="display: block; margin-left: 30px;">
+<img src="/img/P4.JPG" alt="IP" width="1500" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">The table below provides information of important keys and potential information it collects.</p>
 
