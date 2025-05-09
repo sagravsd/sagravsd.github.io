@@ -120,6 +120,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 | **com.fireperf.fpr_enabled**                 | Boolean flag indicating if performance monitoring is enabled                                 |
 | **MTGImageCachedTransformed**                | Transformed image cache keys or metadata (e.g., timestamps or image variants)                |
 
+</div>
 
 <p style="margin-left: 30px;">As seen in Figure 5 below, the first row includes a key string value labeled “GDPR_Consent,” indicating that the app requires user consent in accordance with the General Data Protection Regulation (GDPR). This applies to citizens of the European Union (EU) and to all users, as the app is available worldwide. Prompting for this consent when the app is downloaded on an iPhone helps ensure the app complies with GDPR by notifying users appropriately.</p>
 
