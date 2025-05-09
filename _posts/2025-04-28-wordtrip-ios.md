@@ -101,9 +101,23 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">This image shows data collected by the Word Trip app about the device. The first row includes a key string value labeled “GDPR_Consent,” indicating that the app requires user consent in accordance with the General Data Protection Regulation (GDPR). This applies to citizens of the European Union (EU) and to all users, as the app is available worldwide. Prompting for this consent when the app is downloaded on an iPhone helps ensure the app complies with GDPR by notifying users appropriately.</p>
 
-<img src="/img/P4.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+<img src="/img/P4.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;">In addition, the “CCPA_Privacy” key (referring to the California Consumer Privacy Act) has an empty string value. This suggests that no consent has been recorded or acknowledged from users who download the app. If this is the case, it may indicate non-compliance with CCPA requirements for users residing in California.</p>
+
+<img src="/img/P5.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;"></p>
+<p style="margin-left: 30px;"></p>
+<p style="margin-left: 30px;"></p>
+<p style="margin-left: 30px;"></p>
+<p style="margin-left: 30px;"></p>
+<p style="margin-left: 30px;"></p>
+<p style="margin-left: 30px;"></p>
+<p style="margin-left: 30px;"></p>
+<p style="margin-left: 30px;"></p>
+
+
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
    - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifies are protected or anonymized.
