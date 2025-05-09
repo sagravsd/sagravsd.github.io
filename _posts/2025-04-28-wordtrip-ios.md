@@ -99,7 +99,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure 3:</strong></p>
 <img src="/img/P3.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">This image shows data collected by the Word Trip app about the device.</p
+<p style="margin-left: 30px;">This image shows data collected by the Word Trip app about the device.</p>
                                                                                                         
 <p style="margin-left: 30px;"><strong>Figure 4:</strong></p>
 <img src="/img/P4.JPG" alt="IP" width="1050" style="display: block; margin-left: 30px;">
