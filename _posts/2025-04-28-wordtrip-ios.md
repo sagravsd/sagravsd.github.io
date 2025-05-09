@@ -99,10 +99,23 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure 3:</strong></p>
 <img src="/img/P3.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">This image shows data collected by the Word Trip app about the device.</p>
-                                                                                                        
+<p style="margin-left: 30px;">The image below shows data collected by the Word Trip.</p>
+                                                                                                      
 <p style="margin-left: 30px;"><strong>Figure 4:</strong></p>
 <img src="/img/P4.JPG" alt="IP" width="1250" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;">The table below provides information of important keys and potential information it collects.</p>
+
+| **Key**                                       | **Potential Data Collected**                                                                 |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **com.fireperf.fpr_rl_network_request_event_count_fg** | Count of network requests in foreground, may include method, timing, and response status     |
+| **com.unity.ads.lastKnownUserAgent**         | Last known user agent (device info, OS, browser)                                             |
+| **BIDDER_TOKEN_EXTRAS**                      | User IDs such as public ID, session info, or targeting parameters |
+| **com.facebook.sdk:FBSDKSettingsInstallTimestamp** | Timestamp of Facebook initialization, used for attribution and analytics                          |
+| **lastRequestedAttributionsDetailsTimeStamp** | Timestamp of last request for ad attribution data                                            |
+| **com.fireperf.fpr_log_source**              | Log source ID (e.g., iOS) to help route performance logs                              |
+| **com.fireperf.fpr_enabled**                 | Boolean flag indicating if performance monitoring is enabled                                 |
+| **MTGImageCachedTransformed**                | Transformed image cache keys or metadata (e.g., timestamps or image variants)                |
 
 
 <p style="margin-left: 30px;">The first row includes a key string value labeled “GDPR_Consent,” indicating that the app requires user consent in accordance with the General Data Protection Regulation (GDPR). This applies to citizens of the European Union (EU) and to all users, as the app is available worldwide. Prompting for this consent when the app is downloaded on an iPhone helps ensure the app complies with GDPR by notifying users appropriately.</p>
