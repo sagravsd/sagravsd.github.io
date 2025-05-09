@@ -102,7 +102,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;">This image shows data collected by the Word Trip app about the device.</p>
                                                                                                         
 <p style="margin-left: 30px;"><strong>Figure 4:</strong></p>
-<img src="/img/P4.JPG" alt="IP" width="1050" style="display: block; margin-left: 30px;">
+<img src="/img/P4.JPG" alt="IP" width="1250" style="display: block; margin-left: 30px;">
 
 
 <p style="margin-left: 30px;">The first row includes a key string value labeled “GDPR_Consent,” indicating that the app requires user consent in accordance with the General Data Protection Regulation (GDPR). This applies to citizens of the European Union (EU) and to all users, as the app is available worldwide. Prompting for this consent when the app is downloaded on an iPhone helps ensure the app complies with GDPR by notifying users appropriately.</p>
