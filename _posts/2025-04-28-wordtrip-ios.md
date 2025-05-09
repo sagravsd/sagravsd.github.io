@@ -104,8 +104,11 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure 4:</strong></p>
 <img src="/img/P4.JPG" alt="IP" width="1500" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">The table below provides information of important keys and potential information it collects.</p>
+<p style="margin-left: 30px;">Table 1 below provides information of important keys and potential information it collects.</p>
 
+<p style="margin-left: 30px;"><strong>Table 1:</strong></p>
+<div style="margin-left: 30px;">
+   
 | **Key**                                       | **Potential Data Collected**                                                                 |
 |----------------------------------------------|-----------------------------------------------------------------------------------------------|
 | **com.fireperf.fpr_rl_network_request_event_count_fg** | Count of network requests in foreground, may include method, timing, and response status     |
