@@ -86,18 +86,18 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** Personal information is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
    - **Artifacts:**  Although the privacy policy states that personal information is collected only when necessary, outlines the purpose of data collection, and transparently discloses data sharing practices, it does mention secure data transmission and describes general security practices. However, it does not explicitly reference the use of HTTPS or TLS protocols for data transmission.
 
-<p style="margin-left: 35px;">The artifacts listed below further demonstrate whether this objective is being met.</p>
+<p style="margin-left: 30px;">The artifacts listed below further demonstrate whether this objective is being met.</p>
    
-<p style="margin-left: 40px;">The x-bplist (binary property list) file contains the public IP address in the device used for this testing. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.</p>
+<p style="margin-left: 30px;">The x-bplist (binary property list) file contains the public IP address in the device used for this testing. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.</p>
 
-<p style="margin-left: 40px;"><strong>Figure 1:</strong></p>
-<img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 40px;">
+<p style="margin-left: 30px;"><strong>Figure 1:</strong></p>
+<img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 40px;"><strong>Figure 2:</strong></p>
-<img src="/img/P2.JPG" alt="IP" width="650" style="display: block; margin-left: 40px;">
+<p style="margin-left: 30px;"><strong>Figure 2:</strong></p>
+<img src="/img/P2.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 40px;"><strong>Figure 3:</strong></p>
-<img src="/img/P3.JPG" alt="IP" width="650" style="display: block; margin-left: 40px;">
+<p style="margin-left: 30px;"><strong>Figure 3:</strong></p>
+<img src="/img/P3.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
   
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
