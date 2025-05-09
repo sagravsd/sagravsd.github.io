@@ -209,7 +209,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;">Figure X below reveals that the ZACCOUNTPROPERTY table shows whether the user has agreed to the terms of service for using the Word Trip app.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P12.JPG" alt="IP" width="550" style="display: block; margin-left: 30px;">
+<img src="/img/P12.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">Also, as shown in Figures x and x below, analysis of the ObservedDomains table reveals that the Word Trip app tracks and accesses Internet domains, as recorded in the figure. Several registrable domains were identified, illustrating the endpoints the app communicates with. The figure also indicates whether data transmissions are secure and highlights any potential risks associated with insecure communication channels. I manually verified each domain by visiting the listed websites and confirmed that all were secure and did not pose a risk of insecure communication.</p>
 
