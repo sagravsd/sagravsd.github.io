@@ -99,16 +99,19 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure 3:</strong></p>
 <img src="/img/P3.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">This image shows data collected by the Word Trip app about the device. </p>
-
-<img src="/img/P4.JPG" alt="IP" width="950" style="display: block; margin-left: 30px;">
+<p style="margin-left: 30px;">This image shows data collected by the Word Trip app about the device. </p
+                                                                                                        
+<p style="margin-left: 30px;"><strong>Figure 4:</strong></p>
+<img src="/img/P4.JPG" alt="IP" width="1050" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">The first row includes a key string value labeled “GDPR_Consent,” indicating that the app requires user consent in accordance with the General Data Protection Regulation (GDPR). This applies to citizens of the European Union (EU) and to all users, as the app is available worldwide. Prompting for this consent when the app is downloaded on an iPhone helps ensure the app complies with GDPR by notifying users appropriately.</p>
 
+<p style="margin-left: 30px;"><strong>Figure 5:</strong></p>
 <img src="/img/P5.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">In addition, the “CCPA_Privacy” key (referring to the California Consumer Privacy Act) has an empty string value. This suggests that no consent has been recorded or acknowledged from users who download the app. If this is the case, it may indicate non-compliance with CCPA requirements for users residing in California.</p>
 
+<p style="margin-left: 30px;"><strong>Figure 6:</strong></p>
 <img src="/img/P6.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
 
