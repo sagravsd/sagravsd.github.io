@@ -134,6 +134,18 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure 6:</strong></p>
 <img src="/img/P6.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
+<p style="margin-left: 30px;">Figure 7 below augments on Figure 4 and Table 1 and provide the public ID, session information timestamp, and timestamp of last request for ad attribution data.</p>
+
+<p style="margin-left: 30px;"><strong>Figure 7:</strong></p>
+
+| **Key**                                       | **Potential Data Collected**                                                                 |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **BIDDER_TOKEN_EXTRAS** | 1743726856: Monday, 5 May 2025 17:47:36 UTC and Monday, 5 May 2025 12:47:36 EST     |
+| **lastRequestedAttributionsDetailsTimeStamp**         | 1743726474660: Monday, 5 May 2025 17:47:54 UTC and Monday, 5 May 2025 12:47:54 EST   |
+
+
+<img src="/img/P7.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
    - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifies are protected or anonymized.
