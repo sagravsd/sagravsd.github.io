@@ -221,7 +221,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P14.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">As shown in Figure x, Word Trip does keep track of dates of operation when the Word Trip app was launched as seen in table 'OperatingDates'.</p>
+<p style="margin-left: 30px;">As shown in Figure x, the Word Trip app tracks the dates it was launched, as recorded in the 'OperatingDates' table.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P14b.JPG" alt="IP" width="550" style="display: block; margin-left: 30px;">
