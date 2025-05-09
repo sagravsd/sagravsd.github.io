@@ -88,13 +88,13 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 40px;">The x-bplist (binary property list) file contains the public IP address in the device used for this testing. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.</p>
 
-<p style="margin-left: 40px;">Figure 1:</p>
+<p style="margin-left: 40px;">**Figure 1:**</p>
 <img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 40px;">
 
-<p style="margin-left: 40px;">Figure 2:</p>
+<p style="margin-left: 40px;">**Figure 2:**</p>
 <img src="/img/P2.JPG" alt="IP" width="650" style="display: block; margin-left: 40px;">
 
-<p style="margin-left: 40px;">Figure 3:</p>
+<p style="margin-left: 40px;">**Figure 3:**</p>
 <img src="/img/P3.JPG" alt="IP" width="650" style="display: block; margin-left: 40px;">
   
 ### 2. Device Information
