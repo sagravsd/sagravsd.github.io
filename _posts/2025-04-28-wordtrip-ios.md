@@ -60,7 +60,7 @@ Data may be shared with service providers, affiliates, advertisers, payment proc
 
 ### Device Details
 
-The device used for testing this app was an **iPhone 8** (Model MQ6V2LL/A) with **iOS version 16.7.10**. A full file system image of this mobile was acquired for the analysis. To achieve this, we used **Autopsy** to analyze the full system image. Multiple images were taken at different times to check the difference in data stored and app behavior.
+The device used for testing this app was an iPhone 8 (Model MQ6V2LL/A) with iOS version 15.4.1. A full file system image of this mobile was acquired for the analysis. To achieve this, we used Autopsy to analyze the full system image. Multiple images were taken at different times to check the difference in data stored and app behavior.
 
 ### Software Used
 
