@@ -86,7 +86,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** Personal information is collected only when necessary, securely stored, and users know how their data is used; Users can manage or delete their personal information easily.
    - **Artifacts:**  Although the privacy policy states that personal information is collected only when necessary, outlines the purpose of data collection, and transparently discloses data sharing practices, it does mention secure data transmission and describes general security practices. However, it does not explicitly reference the use of HTTPS or TLS protocols for data transmission.
 
-<p style="margin-left: 40px;">The artifacts listed below further demonstrate whether this objective is being met.</p>
+<p style="margin-left: 35px;">The artifacts listed below further demonstrate whether this objective is being met.</p>
    
 <p style="margin-left: 40px;">The x-bplist (binary property list) file contains the public IP address in the device used for this testing. This format is used to store structured data and is commonly employed by macOS and iOS applications to hold configuration settings (such as those for the app Word Trip), cached data, user preferences, and system information.</p>
 
