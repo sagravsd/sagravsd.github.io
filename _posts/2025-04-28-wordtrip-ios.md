@@ -178,6 +178,27 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - **System logs or device behavior history:** There is no reference collecting system-level logs or OS activity like settings changes, crashes outside the app, or device usage history.  
       - **Errors or abnormal activity (in-app):** The policy references collecting "application performance and debugging information" — likely limited to app-level crash reports or in-game errors.  
       - **General device log retrieval or system diagnostics:** No reference to full system diagnostics or general device logs beyond the scope of the app.  
+
+<p style="margin-left: 30px;">The figure below shows the Word Trip database imported from Autopsy into DB Browser, including the tables and indices it contains.</p>
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P9.JPG" alt="IP" width="1500" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;">Table 3 below augment Figure 4 and Table 1, providing the public ID, session information timestamp, and the timestamp of the last request for ad attribution data.</p>
+
+<p style="margin-left: 30px;"><strong>Table 2:</strong></p>
+
+| **Key**                       | **What It Is**                                 | **Purpose / Use**                                                                 |
+|------------------------------|--------------------------------------------------|------------------------------------------------------------------------------------|
+| **ACFacebookAppIdKey**       | Facebook App ID                                  | Specifies the Facebook App ID registered for the app, used to access Facebook API |
+| **ACFacebookPermissionsKey** | Facebook Permissions                             | Array of permissions the app is requesting (e.g., email, friends list)            |
+| **ACLiverpoolContainerId**   | Possibly internal or enterprise-specific         | Could be a container or identifier for a service named "Liverpool" (not standard) |
+| **ACFacebookAudienceKey**    | Facebook audience type                           | Defines the audience for posts (e.g., `OnlyMe`, `Friends`, `Everyone`)            |
+| **ACLinkedInPermissionsKey** | LinkedIn Permissions                             | Array of permissions requested for LinkedIn integration                           |
+| **ACLinkedInAppIdKey**       | LinkedIn App ID                                  | LinkedIn App ID used for authenticating with LinkedIn API                         |
+| **ACTencentWeiboAppIdKey**   | Tencent Weibo App ID                             | App ID for Tencent Weibo integration (Chinese social media platform)              |
+
+
      
 ### 5. Other Data
    - **Objective:** Review app data to identify any relevant evidence from timestamps, browser details, etc. 
