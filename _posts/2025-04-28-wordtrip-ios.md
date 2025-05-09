@@ -121,7 +121,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 | **MTGImageCachedTransformed**                | Transformed image cache keys or metadata (e.g., timestamps or image variants)                |
 
 
-<p style="margin-left: 30px;">The first row includes a key string value labeled “GDPR_Consent,” indicating that the app requires user consent in accordance with the General Data Protection Regulation (GDPR). This applies to citizens of the European Union (EU) and to all users, as the app is available worldwide. Prompting for this consent when the app is downloaded on an iPhone helps ensure the app complies with GDPR by notifying users appropriately.</p>
+<p style="margin-left: 30px;">As seen in Figure 5 below, the first row includes a key string value labeled “GDPR_Consent,” indicating that the app requires user consent in accordance with the General Data Protection Regulation (GDPR). This applies to citizens of the European Union (EU) and to all users, as the app is available worldwide. Prompting for this consent when the app is downloaded on an iPhone helps ensure the app complies with GDPR by notifying users appropriately.</p>
 
 <p style="margin-left: 30px;"><strong>Figure 5:</strong></p>
 <img src="/img/P5.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
