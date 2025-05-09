@@ -167,7 +167,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** A list of relevant data not otherwise defined that can demonstrate insecure endpoints or risks associated with using the app.
    - **Artifacts:**
       - **App activity logs (e.g., timestamps, usage):** The policy mentions collecting gameplay data, interactions with others, and performance/debugging information. However, it does not clarify whether detailed timestamps or event-level logs are captured.
-      - **Browser details:** There is no reference collecting system-level logs or OS activity like settings changes, crashes outside the app, or device usage history.  
+      - **Browser details:** The policy does not mention collecting browser-specific data (e.g., user agent strings, visited URLs).  
       - **Account data:** The policy references that player name, profile, contact info, game account details, and purchase history are collected.  
       - **Usage patterns:** The policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
       - **Evidence of insecure endpoints or risks:** There's no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
