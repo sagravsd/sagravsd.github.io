@@ -106,6 +106,23 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">Table 1 below provides information of important keys and potential information it collects.</p>
 
+<p style="margin-left: 30px;"><strong>Figure 1:</strong></p>
+<div style="margin-left: 30px;">
+  
+| **Key**                                       | **Potential Data Collected**                                                                 |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **com.fireperf.fpr_rl_network_request_event_count_fg** | Count of network requests in foreground, may include method, timing, and response status     |
+| **com.unity.ads.lastKnownUserAgent**         | Last known user agent (device info, OS, browser)                                             |
+| **BIDDER_TOKEN_EXTRAS**                      | Tokens or extras for ad bidding, may include user IDs, session info, or targeting parameters |
+| **com.facebook.sdk:FBSDKSettingsInstallTimestamp** | Timestamp of SDK initialization, used for attribution and analytics                          |
+| **lastRequestedAttributionsDetailsTimeStamp** | Timestamp of last request for ad attribution data                                            |
+| **com.fireperf.fpr_log_source**              | Log source ID (e.g., Android/iOS), helps route performance logs                              |
+| **com.fireperf.fpr_enabled**                 | Boolean flag indicating if performance monitoring is enabled                                 |
+| **MTGImageCachedTransformed**                | Transformed image cache keys or metadata (e.g., timestamps or image variants)                |
+
+</div>
+
+
 <p style="margin-left: 30px;"><strong>Table 1:</strong></p>
 <div style="margin-left: 30px;">
    
