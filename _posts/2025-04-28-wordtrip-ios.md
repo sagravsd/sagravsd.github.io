@@ -184,11 +184,11 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P9.JPG" alt="IP" width="1500" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">Table 3 below augment Figure 4 and Table 1, providing the public ID, session information timestamp, and the timestamp of the last request for ad attribution data.</p>
+<p style="margin-left: 30px;">Table 3 below shows the keys related to social account integration settings used in the Accounts or Social framework on Apple platforms to configure access to social media services. Apps like Word Trip use these keys when requesting access to social accounts configured on the user's device, allowing access to services such as Facebook, LinkedIn, Tencent Weibo, and others.</p>
 
-<p style="margin-left: 30px;"><strong>Table 2:</strong></p>
+<p style="margin-left: 30px;"><strong>Table 3:</strong></p>
 
-| **Key**                       | **What It Is**                                 | **Purpose / Use**                                                                 |
+| **ZNAME (Key Name)**                       | **What It Is**                                 | **Purpose / Use**                                                                 |
 |------------------------------|--------------------------------------------------|------------------------------------------------------------------------------------|
 | **ACFacebookAppIdKey**       | Facebook App ID                                  | Specifies the Facebook App ID registered for the app, used to access Facebook API |
 | **ACFacebookPermissionsKey** | Facebook Permissions                             | Array of permissions the app is requesting (e.g., email, friends list)            |
