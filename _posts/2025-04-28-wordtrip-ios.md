@@ -90,9 +90,9 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <img src="/img/P1.JPG" alt="IP" width="350" style="display: block; margin-left: 40px;">
 
-<img src="/img/P2.JPG" alt="IP" width="550" style="display: block; margin-left: 40px;">
+<img src="/img/P2.JPG" alt="IP" width="650" style="display: block; margin-left: 40px;">
 
-<img src="/img/P2.JPG" alt="IP" width="550" style="display: block; margin-left: 40px;">
+<img src="/img/P3.JPG" alt="IP" width="650" style="display: block; margin-left: 40px;">
   
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
