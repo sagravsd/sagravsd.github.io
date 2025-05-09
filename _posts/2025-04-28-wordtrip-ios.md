@@ -216,10 +216,10 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;">The “hadUserInteraction” field, when set to “1,” indicates that the iPhone user directly interacted with a site—for example, by clicking a link or advertisement within the app that triggered a request to that domain. A value of “0” suggests that the Word Trip application initiated contact with the domain without user interaction, likely as part of background processes or core application functionality.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P13.JPG" alt="IP" width="550" style="display: block; margin-left: 30px;">
+<img src="/img/P13.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P14.JPG" alt="IP" width="550" style="display: block; margin-left: 30px;">
+<img src="/img/P14.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 ### 5. Other Data
    - **Objective:** Review app data to identify any relevant evidence from timestamps, browser details, etc. 
