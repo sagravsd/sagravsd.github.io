@@ -187,7 +187,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;">Figure x and Table 3 below shows the keys related to social account integration settings used in the Accounts or Social framework on Apple platforms to configure access to social media services. Apps like Word Trip use these keys when requesting access to social accounts configured on the user's device, allowing access to services such as Facebook, LinkedIn, Tencent Weibo, and others.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P10.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+<img src="/img/P10.JPG" alt="IP" width="450" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;"><strong>Table 3:</strong></p>
 
@@ -201,6 +201,10 @@ Analysis was conducted in accordance with the objectives specified in the test c
 | **ACLinkedInAppIdKey**       | LinkedIn App ID                                  | LinkedIn App ID used for authenticating with LinkedIn API                         |
 | **ACTencentWeiboAppIdKey**   | Tencent Weibo App ID                             | App ID for Tencent Weibo integration (Chinese social media platform)              |
 
+<p style="margin-left: 30px;">Furthermore, as shown in Figure X below, analysis of the ZACCOUNT table reveals that email addresses are being collected. Although the privacy policy acknowledges this collection, the data is stored in clear text. Please refer to section '1. Personal Information' above. </p>
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P11.JPG" alt="IP" width="450" style="display: block; margin-left: 30px;">
 
      
 ### 5. Other Data
