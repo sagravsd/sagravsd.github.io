@@ -196,7 +196,9 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;">This figure also shows the tracking of the web browser version used to access the sites related to the app.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P8.JPG" alt="IP" width="10850" style="display: block; margin-left: 30px;">
+
+<img src="/img/P8.JPG" alt="IP" style="display: block; margin-left: 30px; width: 80%; max-width: 100%; height: auto;">
+
 
 
 ### Locations of Data Storage
