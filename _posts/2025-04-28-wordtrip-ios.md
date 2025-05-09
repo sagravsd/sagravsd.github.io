@@ -193,6 +193,12 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - **Usage patterns:** The policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
       - **Evidence of insecure endpoints or risks:** There's no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
 
+<p style="margin-left: 30px;">This figure also shows the tracking of the web browser version used to access the sites related to the app.</p>
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P8.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
+
 ### Locations of Data Storage
 The following locations had the most useful data stored in it:
 
