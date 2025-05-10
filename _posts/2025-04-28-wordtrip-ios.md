@@ -224,7 +224,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;">As shown in Figure x, the Word Trip app tracks the dates it was launched, as recorded in the 'OperatingDates' table.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P14b.JPG" alt="IP" width="550" style="display: block; margin-left: 30px;">
+<img src="/img/P14b.JPG" alt="IP" width="450" style="display: block; margin-left: 30px;">
 
 ### 5. Other Data
    - **Objective:** Review app data to identify any relevant evidence from timestamps, browser details, etc. 
