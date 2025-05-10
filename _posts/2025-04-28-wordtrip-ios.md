@@ -136,6 +136,9 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">Figure 7 and Table 2 below augment Figure 4 and Table 1, providing the public ID, session information timestamp, and the timestamp of the last request for ad attribution data.</p>
 
+<p style="margin-left: 30px;"><strong>Figure 7:</strong></p>
+<img src="/img/P7.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
+
 <p style="margin-left: 30px;"><strong>Table 2:</strong></p>
 
 | **Key**                                       | **Potential Data Collected**                                                                 |
@@ -143,8 +146,6 @@ Analysis was conducted in accordance with the objectives specified in the test c
 | **BIDDER_TOKEN_EXTRAS** | 1743726856: Monday, 5 May 2025 17:47:36 UTC and Monday, 5 May 2025 12:47:36 EST     |
 | **lastRequestedAttributionsDetailsTimeStamp**         | 1743726474660: Monday, 5 May 2025 17:47:54 UTC and Monday, 5 May 2025 12:47:54 EST   |
 
-<p style="margin-left: 30px;"><strong>Figure 7:</strong></p>
-<img src="/img/P7.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
