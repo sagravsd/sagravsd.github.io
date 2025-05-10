@@ -178,7 +178,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">The client.plist file located at System > root > Library > Caches > locationd includes a key named com.littleengine.wordtreat, indicating the internal name used by the Word Trip app. This entry has a SupportedAuthorizationMask value of 3, meaning the app can request both "When In Use" and "Always" location permissions, allowing for flexible access depending on user settings and app behavior.</p>
 
-     <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P25.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 
