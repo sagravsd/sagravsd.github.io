@@ -164,7 +164,9 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - Patterns of movement
    - **Expected Outcome:** A map or list of locations visited, along with timestamps indicating when the user was at each location.
    - **Artifacts:**
-      - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP), however, evidence suggests the following:
+      - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP).
+      - Location Access Evidence: The evidence in figures x through x shows that the Word Trip app has access to location services and may record data such as IP-based approximate location and possibly GPS data. As a result, location data is be accessible through app logs and system files.
+      - Timestamps: The presence of timestamps (like ts: 1743726856) associated with app launches or IP addresses allows for some behavioral correlation with time.
 
      Based on analysis of the x-bplist file, the Word Trip app collects metadata including the user's IP address, web browser data, and iOS version. This is evident in the BIDDER_TOKEN_EXTRAS key, which contains a JSON-like string such as {"ip": "96.255.xx.xxx", "ts": 1743726856}. The IP address allows the app to estimate the user’s general location via geolocation techniques, potentially down to the city or neighborhood level.
 
