@@ -166,7 +166,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Artifacts:**
       - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP), however, evidence suggests the following:
 
-     Based on analysis of the x-bplist file, the Word Trip app collects metadata including the user's IP address, web browser data, and iOS version. This is evident in the BIDDER_TOKEN_EXTRAS key, which contains a JSON-like string such as {"ip": "96.255.49.109", "ts": 1743726856}. The IP address allows the app to estimate the user’s general location via geolocation techniques, potentially down to the city or neighborhood level.
+     Based on analysis of the x-bplist file, the Word Trip app collects metadata including the user's IP address, web browser data, and iOS version. This is evident in the BIDDER_TOKEN_EXTRAS key, which contains a JSON-like string such as {"ip": "96.255.xx.xxx", "ts": 1743726856}. The IP address allows the app to estimate the user’s general location via geolocation techniques, potentially down to the city or neighborhood level.
 
      The app can combine this IP address with the application launch timestamp (ts) to correlate user behavior with specific location data points.
 
@@ -187,7 +187,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
      The csidata file at System > WirelessDomain > Library > Preferences contains flags like "VoWiFiLocationEvaluated", "WifiCallingLocationAuthorization", "SimInfo", and "GsmSettingsModel", suggesting the device and its apps—such as Word Trip—are configured to interface with location services.
 
      <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P27.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
+<img src="/img/P27.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
      In conclusion, coordinate logs extracted from Apple’s location caches confirm that Word Trip has accessed or at least been granted permissions to request GPS location data under both "When In Use" and "Always" settings.
     
