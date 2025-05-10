@@ -244,7 +244,8 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 
-<img src="/img/P8.JPG" alt="IP" style="display: block; margin-left: 30px; width: 80%; max-width: 100%; height: auto;">
+<img src="/img/P8.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
+
 
 
 
