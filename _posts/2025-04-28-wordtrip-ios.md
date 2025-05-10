@@ -204,7 +204,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;">Furthermore, as shown in Figure X below, analysis of the ZACCOUNT table reveals that email addresses are being collected. Although the privacy policy acknowledges this collection, the data is stored in clear text. Please refer to section '1. Personal Information' above. </p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P11.JPG" alt="IP" width="550" style="display: block; margin-left: 30px;">
+<img src="/img/P11.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">Figure X below reveals that the ZACCOUNTPROPERTY table shows whether the user has agreed to the terms of service for using the Word Trip app.</p>
 
