@@ -164,7 +164,21 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - Patterns of movement
    - **Expected Outcome:** A map or list of locations visited, along with timestamps indicating when the user was at each location.
    - **Artifacts:**
-      - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP), however, evidence suggests.
+      - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP), however, evidence suggests the following:
+    
+Based on analysis of the x-bplist file, the Word Trip app collects metadata including the user's IP address, web browser data, and iOS version. This is evident in the BIDDER_TOKEN_EXTRAS key, which contains a JSON-like string such as {"ip": "96.255.49.109", "ts": 1743726856}. The IP address allows the app to estimate the user’s general location via geolocation techniques, potentially down to the city or neighborhood level.
+
+The app can combine this IP address with the application launch timestamp (ts) to correlate user behavior with specific location data points. 
+
+Using BackupViewer, additional evidence was found:
+
+The client.plist file located at System > root > Library > Caches > locationd includes a key named com.littleengine.wordtreat, indicating the internal name used by the Word Trip app. This entry has a SupportedAuthorizationMask value of 3, meaning the app can request both "When In Use" and "Always" location permissions, allowing for flexible access depending on user settings and app behavior.
+
+The ZProcess table in System > WirelessDomain > Library > Databases shows entries such as ZBUNDLENAME = "com.apple.datausage" and ZPROCNAME values containing "locationd", referring to the iOS daemon responsible for handling location services. This contextualizes how location access is managed at the system level.
+
+The csidata file at System > WirelessDomain > Library > Preferences contains flags like "VoWiFiLocationEvaluated", "WifiCallingLocationAuthorization", "SimInfo", and "GsmSettingsModel", suggesting the device and its apps—such as Word Trip—are configured to interface with location services.
+
+Finally, coordinate logs extracted from Apple’s location caches confirm that Word Trip has accessed or at least been granted permissions to request GPS location data under both "When In Use" and "Always" settings.
 
 ### 4. System Logs 
    - **Objective:** Extract and analyze system logs, including device activity logs and app installs and usage history. 
