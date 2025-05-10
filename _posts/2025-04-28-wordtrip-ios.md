@@ -152,8 +152,8 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifiers are protected or anonymized.
    - **Expected Outcome:** Personal device information is collected only when needed, transmitted securely, and protected; Users can manage or delete their device information when they want.
    - **Artifacts:**
-      - **Device identifiers are protected or anonymized:** The policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. Evidence indicates that information is sent in clear text.
-      - **Secure transmission of device information:**  As shown in Figure X, the ZACCOUNTPROPERTY table indicates whether a user has agreed to the terms of service for the Word Trip app. Furthermore, the application's policy does not explicitly confirm the use of HTTPS or other secure data transfer protocols. Available evidence suggests that user information is transmitted in clear text, as demonstrated by the artifacts presented.
+      - **Device identifiers are protected or anonymized:** The privacy policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. Evidence indicates that information is sent in clear text.
+      - **Secure transmission of device information:**  As shown in Figure X, the ZACCOUNTPROPERTY table indicates whether a user has agreed to the terms of service for the Word Trip app. Furthermore, the application's privacy policy does not explicitly confirm the use of HTTPS or other secure data transfer protocols. Available evidence suggests that user information is transmitted in clear text, as demonstrated by the artifacts presented.
 
 ### 3. Location history and GPS Data
    - **Objective:** Analyze GPS and location history data to determine the movements of the device user during the timeframe of interest. 
@@ -175,9 +175,9 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - Any errors or abnormal activity
    - **Expected Outcome:** A record of app installations, deletions, and system activity related to the time of interest.
    - **Artifacts:**
-      - **App installation/uninstallation timestamps:** The policy does not mention collecting logs about when apps are installed or uninstalled. However, evidence indicates that there is a record of this.
+      - **App installation/uninstallation timestamps:** The privacy policy does not mention collecting logs about when apps are installed or uninstalled. However, evidence indicates that there is a record of this.
       - **System logs or device behavior history:** There is no reference collecting system-level logs or OS activity like settings changes, crashes outside the app, or device usage history.  
-      - **Errors or abnormal activity (in-app):** The policy references collecting "application performance and debugging information" — likely limited to app-level crash reports or in-game errors.  
+      - **Errors or abnormal activity (in-app):** The privacy policy references collecting "application performance and debugging information" — likely limited to app-level crash reports or in-game errors.  
       - **General device log retrieval or system diagnostics:** No reference to full system diagnostics or general device logs beyond the scope of the app.  
 
 <p style="margin-left: 30px;">The figure below shows the Word Trip database imported from Autopsy into DB Browser, including the tables and indices it contains.</p>
@@ -235,10 +235,10 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - Account data 
    - **Expected Outcome:** A list of relevant data not otherwise defined that can demonstrate insecure endpoints or risks associated with using the app.
    - **Artifacts:**
-      - **App activity logs (e.g., timestamps, usage):** The policy mentions collecting gameplay data, interactions with others, and performance/debugging information. However, it does not clarify whether detailed timestamps or event-level logs are captured.
-      - **Browser details:** The policy does not mention collecting browser-specific data (e.g., user agent strings, visited URLs).  
-      - **Account data:** The policy references that player name, profile, contact info, game account details, and purchase history are collected.  
-      - **Usage patterns:** The policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
+      - **App activity logs (e.g., timestamps, usage):** The privacy policy mentions collecting gameplay data, interactions with others, and performance/debugging information. However, it does not clarify whether detailed timestamps or event-level logs are captured.
+      - **Browser details:** The privacy policy does not mention collecting browser-specific data (e.g., user agent strings, visited URLs).  
+      - **Account data:** The privacy policy references that player name, profile, contact info, game account details, and purchase history are collected.  
+      - **Usage patterns:** The privacy policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
       - **Evidence of insecure endpoints or risks:** There's no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
 
 <p style="margin-left: 30px;">This figure also shows the tracking of the web browser version used to access the sites related to the app.</p>
