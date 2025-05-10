@@ -155,6 +155,8 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - **Device identifiers are protected or anonymized:** The privacy policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. Evidence indicates that information is sent in clear text.
       - **Secure transmission of device information:**  As shown in Figure X, the ZACCOUNTPROPERTY table indicates whether a user has agreed to the terms of service for the Word Trip app. Furthermore, the application's privacy policy does not explicitly confirm the use of HTTPS or other secure data transfer protocols. Available evidence suggests that user information is transmitted in clear text, as demonstrated by the artifacts presented.
 
+     In addition, the Word Tripp application was found to log multiple device- and user-specific data points, including the iOS version, web user agent strings, IMSI/IMEI numbers, ICCID, phone number, model identifier, and time zone configuration. These artifacts were identified using 3uTools (for hardware and OS-level information) and iLEAPP (for SIM-related identifiers and cellular metadata). Application state transitions, crash event counts, session durations, and timestamps related to app suspension were recovered from plist and SQLite database files, as confirmed via 3uTools and DB Browser for SQLite.
+
 ### 3. Location history and GPS Data
    - **Objective:** Analyze GPS and location history data to determine the movements of the device user during the timeframe of interest. 
    - **Procedure:** Extract and analyze location data from apps (e.g., Google Maps, Apple Maps), system logs, and geotagged media.
@@ -268,7 +270,9 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - **Browser details:** The privacy policy does not mention the collection of browser-specific data (e.g., browser information, user agent strings, or visited URLs). However, Figures X, X, and X show that this type of data is being collected.  
       - **Account data:** The privacy policy references that player name, profile, contact info, game account details, and purchase history are collected.  
       - **Usage patterns:** The privacy policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
-      - **Evidence of insecure endpoints or risks:** There's no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
+      - **Evidence of insecure endpoints or risks:** There is no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
+
+     In addition to the data being logged as listed in the Device Information, further metadata—including application launch timestamps, epoch-based activity markers, and advertising telemetry such as ad unit identifiers, skip timing parameters, and mediation flags—was primarily extracted through Autopsy’s plist analysis. These records indicate persistent behavioral tracking and highlight the app’s capacity for device fingerprinting through embedded SDKs such as Unity Ads and AppLovin MAX.
 
 <p style="margin-left: 30px;">This figure also shows that the web browser version used to access the app-related sites is being collected.</p>
 
@@ -276,16 +280,39 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <img src="/img/P8.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
+## Summary
+### Device and User Metadata
+   Artifacts collected from Word Tripp include:
+- iOS version
+- Web user agent strings
+- IMSI and IMEI numbers
+- ICCID (Integrated Circuit Card Identifier)
+- User phone number
+- Device model identifier
+- Time zone settings
 
+These were identified via 3uTools and iLEAPP, confirming the app’s access to and retention of sensitive device-level and SIM-related identifiers.
 
+### Application Behavior Logging
+Through plist and database inspection, the following behavioral data was identified:
 
-### Locations of Data Storage
-The following locations had the most useful data stored in it:
+   - App state transitions (e.g., foreground/background changes)
+   - Crash event counts
+   - Session durations
+   - Timestamps for app suspensions
+   - These data points were found in both property list files and SQLite databases, as revealed by analysis with 3uTools and DB Browser for SQLite.
 
-- **/private/var/mobile/Containers/Data/Application/<App ID>/Library**
-- **/private/var/containers/Bundle/Application/<App ID>/Meetup.app**
+### Advertising and Analytics Telemetry
+Additional metadata related to in-app advertising and analytics includes:
 
-These folders contained app data, including caches, user data, and app metadata.
+   - Launch timestamps
+   - Epoch-based activity markers
+   - Ad configuration values, including:
+   - Ad unit IDs
+   - Skip timers
+   - Mediation flags
+
+Autopsy's plist analysis revealed that these elements are linked to advertising SDKs, notably Unity Ads and AppLovin MAX, indicating a capacity for detailed user behavior tracking and potential device fingerprinting.
 
 ## References
 
