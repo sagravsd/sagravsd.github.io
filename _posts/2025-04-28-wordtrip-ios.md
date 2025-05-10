@@ -172,7 +172,12 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
      Using BackupViewer, additional evidence was found:
 
+
      The client.plist file located at System > root > Library > Caches > locationd includes a key named com.littleengine.wordtreat, indicating the internal name used by the Word Trip app. This entry has a SupportedAuthorizationMask value of 3, meaning the app can request both "When In Use" and "Always" location permissions, allowing for flexible access depending on user settings and app behavior.
+
+     <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P25.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
+
 
      The ZProcess table in System > WirelessDomain > Library > Databases shows entries such as ZBUNDLENAME = "com.apple.datausage" and ZPROCNAME values containing "locationd", referring to the iOS daemon responsible for handling location services. This contextualizes how location access is managed at the system level.
 
