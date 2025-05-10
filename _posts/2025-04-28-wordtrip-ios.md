@@ -10,7 +10,7 @@ categories: iOS forensics
 This blog aims to identify the recovered artifacts focusing on security risks involving privacy and data collection and retention, app permissions, and legal compliance. 
 
 The type of data collected include:
-- Personal Information (name, email address, IPs, etc.)
+- Personal Information (name, email address, IP, etc.)
 - Device Information
 - Location history and GPS data
 - System logs (app information and performance, device activity, app installs)
@@ -55,12 +55,12 @@ Data may be shared with service providers, affiliates, advertisers, payment proc
 ## Testing Objectives and Analysis Procedures
 
 ### Application Details
-- **Name**: Wordtrip
+- **Name**: Word Trip
 - **Version**: 1.446.0 v.2024.11.14 (632295)
 
 ### Device Details
 
-The device used for testing this app was an iPhone 8 (Model MQ6V2LL/A) with iOS version 15.4.1. A full file system image of this mobile was acquired for the analysis. To achieve this, we used Autopsy to analyze the full system image. Multiple images were taken at different times to check the difference in data stored and app behavior.
+The device used for testing this app was an iPhone 8 (Model MQ6V2LL/A) with iOS version 15.4.1. A full file system image of this mobile device was acquired for the analysis. To achieve this, we used Autopsy to analyze the full system image. Multiple images were taken at different times to check the difference in data stored and app behavior.
 
 ### Software Used
 
@@ -99,12 +99,12 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure 3:</strong></p>
 <img src="/img/P3.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">The image below shows data collected by the Word Trip.</p>
+<p style="margin-left: 30px;">The image below shows data collected by Word Trip.</p>
                                                                                                       
 <p style="margin-left: 30px;"><strong>Figure 4:</strong></p>
 <img src="/img/P4.JPG" alt="IP" width="1500" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">Table 1 below provides information of important keys and potential information it collects.</p>
+<p style="margin-left: 30px;">Table 1 below provides information of important keys and the potential information it collects.</p>
 
 <p style="margin-left: 30px;"><strong>Table 1:</strong></p>
    
@@ -144,7 +144,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 | **lastRequestedAttributionsDetailsTimeStamp**         | 1743726474660: Monday, 5 May 2025 17:47:54 UTC and Monday, 5 May 2025 12:47:54 EST   |
 
 <p style="margin-left: 30px;"><strong>Figure 7:</strong></p>
-<img src="/img/P7.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+<img src="/img/P7.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
