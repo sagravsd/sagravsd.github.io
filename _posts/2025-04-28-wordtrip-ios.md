@@ -129,7 +129,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">In addition, the “CCPA_Privacy” key (referring to the California Consumer Privacy Act) has an empty string value. This suggests that no consent has been recorded or acknowledged from users who download the app. If this is the case, it may indicate non-compliance with CCPA requirements for users residing in California.</p>
 
-<p style="margin-left: 30px;">This figure also shows the tracking of the version of iOS when the app was last initialized or accessed.</p>
+<p style="margin-left: 30px;">This figure also shows that the iOS version at the time the app was last launched is collected.</p>
 
 <p style="margin-left: 30px;"><strong>Figure 6:</strong></p>
 <img src="/img/P6.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
@@ -212,7 +212,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P12.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">Also, as shown in Figures x and x below, analysis of the ObservedDomains table reveals that the Word Trip app tracks and accesses Internet domains, as recorded in the figure. Several registrable domains were identified, illustrating the endpoints the app communicates with. The figure also indicates whether data transmissions are secure and highlights any potential risks associated with insecure communication channels. I manually verified each domain by visiting the listed websites and confirmed that all were secure and did not pose a risk of insecure communication.</p>
+<p style="margin-left: 30px;">Also, as shown in Figures x and x below, analysis of the ObservedDomains table reveals that the Word Trip app collects and accesses Internet domains, as recorded in the figure. Several registrable domains were identified, illustrating the endpoints the app communicates with. The figure also indicates whether data transmissions are secure and highlights any potential risks associated with insecure communication channels. I manually verified each domain by visiting the listed websites and confirmed that all were secure and did not pose a risk of insecure communication.</p>
 
 <p style="margin-left: 30px;">The “hadUserInteraction” field, when set to “1,” indicates that the iPhone user directly interacted with a site—for example, by clicking a link or advertisement within the app that triggered a request to that domain. A value of “0” suggests that the Word Trip application initiated contact with the domain without user interaction, likely as part of background processes or core application functionality.</p>
 
@@ -222,7 +222,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P14.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">As shown in Figure x, the Word Trip app tracks the dates it was launched, as recorded in the 'OperatingDates' table.</p>
+<p style="margin-left: 30px;">As shown in Figure x, the Word Trip app collects the dates it was launched, as recorded in the 'OperatingDates' table.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P14b.JPG" alt="IP" width="450" style="display: block; margin-left: 30px;">
@@ -236,12 +236,12 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** A list of relevant data not otherwise defined that can demonstrate insecure endpoints or risks associated with using the app.
    - **Artifacts:**
       - **App activity logs (e.g., timestamps, usage):** The privacy policy mentions collecting gameplay data, interactions with others, and performance/debugging information. However, it does not clarify whether detailed timestamps or event-level logs are captured.
-      - **Browser details:** The privacy policy does not mention collecting browser-specific data (e.g., user agent strings, visited URLs).  
+      - **Browser details:** The privacy policy does not mention the collection of browser-specific data (e.g., browser information, user agent strings, or visited URLs). However, Figures X, X, and X show that this type of data is being collected.  
       - **Account data:** The privacy policy references that player name, profile, contact info, game account details, and purchase history are collected.  
       - **Usage patterns:** The privacy policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
       - **Evidence of insecure endpoints or risks:** There's no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
 
-<p style="margin-left: 30px;">This figure also shows the tracking of the web browser version used to access the sites related to the app.</p>
+<p style="margin-left: 30px;">This figure also shows that the web browser version used to access the app-related sites is being collected.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 
