@@ -149,11 +149,11 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
-   - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifies are protected or anonymized.
+   - **Procedure:** Check what device information is collected (i.e. device type, OS, etc.) and ensure that the app asks for permission; Check that device IDs or other identifiers are protected or anonymized.
    - **Expected Outcome:** Personal device information is collected only when needed, transmitted securely, and protected; Users can manage or delete their device information when they want.
    - **Artifacts:**
       - **Device identifiers are protected or anonymized:** The policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. 
-      - **Secure transmission of device information:**  There is no clear mention of requesting user permission for collecting device information and the policy does not explicitly confirm the use of HTTPS or other secure transfer protocols. Evidence indicates that information is sent in clear text.  
+      - **Secure transmission of device information:**  As shown in Figure X, the ZACCOUNTPROPERTY table indicates whether a user has agreed to the terms of service for the Word Trip app. Furthermore, the application's policy does not explicitly confirm the use of HTTPS or other secure data transfer protocols. Available evidence suggests that user information is transmitted in clear text, as demonstrated by the artifacts presented.
 
 ### 3. Location history and GPS Data
    - **Objective:** Analyze GPS and location history data to determine the movements of the device user during the timeframe of interest. 
