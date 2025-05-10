@@ -172,18 +172,17 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">Based on analysis of the x-bplist file, the Word Trip app collects metadata including the user's IP address, web browser data, and iOS version. This is evident in the BIDDER_TOKEN_EXTRAS key, which contains a JSON-like string such as {"ip": "96.255.xx.xxx", "ts": 1743726856}. The IP address allows the app to estimate the user’s general location via geolocation techniques, potentially down to the city or neighborhood level.</p>
 
-     The app can combine this IP address with the application launch timestamp (ts) to correlate user behavior with specific location data points.
+<p style="margin-left: 30px;">The app can combine this IP address with the application launch timestamp (ts) to correlate user behavior with specific location data points.</p>
 
-     Using BackupViewer, additional evidence was found:
+<p style="margin-left: 30px;">Using BackupViewer, additional evidence was found:</p>
 
-
-     The client.plist file located at System > root > Library > Caches > locationd includes a key named com.littleengine.wordtreat, indicating the internal name used by the Word Trip app. This entry has a SupportedAuthorizationMask value of 3, meaning the app can request both "When In Use" and "Always" location permissions, allowing for flexible access depending on user settings and app behavior.
+<p style="margin-left: 30px;">The client.plist file located at System > root > Library > Caches > locationd includes a key named com.littleengine.wordtreat, indicating the internal name used by the Word Trip app. This entry has a SupportedAuthorizationMask value of 3, meaning the app can request both "When In Use" and "Always" location permissions, allowing for flexible access depending on user settings and app behavior.</p>
 
      <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P25.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 
-     The ZProcess table in System > WirelessDomain > Library > Databases shows entries such as ZBUNDLENAME = "com.apple.datausage" and ZPROCNAME values containing "locationd", referring to the iOS daemon responsible for handling location services. This contextualizes how location access is managed at the system level.
+<p style="margin-left: 30px;">The ZProcess table in System > WirelessDomain > Library > Databases shows entries such as ZBUNDLENAME = "com.apple.datausage" and ZPROCNAME values containing "locationd", referring to the iOS daemon responsible for handling location services. This contextualizes how location access is managed at the system level.</p>
 
      <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P26.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
@@ -193,7 +192,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
      <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P27.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-     In conclusion, coordinate logs extracted from Apple’s location caches confirm that Word Trip has accessed or at least been granted permissions to request GPS location data under both "When In Use" and "Always" settings.
+<p style="margin-left: 30px;">In conclusion, coordinate logs extracted from Apple’s location caches confirm that Word Trip has accessed or at least been granted permissions to request GPS location data under both "When In Use" and "Always" settings.</p>
     
 
 ### 4. System Logs 
