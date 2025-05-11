@@ -187,18 +187,18 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">The client.plist file located at System > root > Library > Caches > locationd includes a key named com.littleengine.wordtreat, indicating the internal name used by the Word Trip app. This entry has a SupportedAuthorizationMask value of 3, meaning the app can request both "When In Use" and "Always" location permissions, allowing for flexible access depending on user settings and app behavior.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 10:</strong></p>
 <img src="/img/P25.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 
 <p style="margin-left: 30px;">The ZProcess table in System > WirelessDomain > Library > Databases shows entries such as ZBUNDLENAME = "com.apple.datausage" and ZPROCNAME values containing "locationd", referring to the iOS daemon responsible for handling location services. This contextualizes how location access is managed at the system level.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 11:</strong></p>
 <img src="/img/P26.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">The csidata file at System > WirelessDomain > Library > Preferences contains flags like "VoWiFiLocationEvaluated", "WifiCallingLocationAuthorization", "SimInfo", and "GsmSettingsModel", suggesting the device and its apps—such as Word Trip—are configured to interface with location services.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 12:</strong></p>
 <img src="/img/P27.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">In conclusion, coordinate logs extracted from Apple’s location caches confirm that Word Trip has accessed or at least been granted permissions to request GPS location data under both "When In Use" and "Always" settings.</p>
@@ -220,12 +220,12 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">The figure below shows the Word Trip database imported from Autopsy into DB Browser, including the tables and indices it contains.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 13:</strong></p>
 <img src="/img/P9.JPG" alt="IP" width="1500" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">Figure x and Table 3 below shows the keys related to social account integration settings used in the Accounts or Social framework on Apple platforms to configure access to social media services. Apps like Word Trip use these keys when requesting access to social accounts configured on the user's device, allowing access to services such as Facebook, LinkedIn, Tencent Weibo, and others.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 14:</strong></p>
 <img src="/img/P10.JPG" alt="IP" width="450" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;"><strong>Table 3:</strong></p>
@@ -242,46 +242,46 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">The com-facebook-sdk-AppEventsTimeSpent.json and com-facebook-sdk-PersistedAnonymousID.json files, located at App Document > AppDomain-com.littleengine.wortreat > Library, log app session details and Facebook SDK-related identifiers. These files record the number of app interruptions, the timestamp of the most recent suspension, the current session ID, and the duration (in seconds) of the current session. Additionally, the persistent anonymous ID stored in these files is used in conjunction with the user's Facebook session ID when a Facebook link is clicked within the app. This suggests that Word Tripp can access and utilize the user’s active Facebook session through background processes initiated by in-app interactions.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 15:</strong></p>
 <img src="/img/P16.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 16:</strong></p>
 <img src="/img/P17.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 17:</strong></p>
 <img src="/img/P18.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">Furthermore, as shown in Figure X below, analysis of the ZACCOUNT table reveals that email addresses are being collected. Although the privacy policy acknowledges this collection, the data is stored in clear text. Please refer to section '1. Personal Information' above. </p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 18:</strong></p>
 <img src="/img/P11.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">Figure X below reveals that the ZACCOUNTPROPERTY table shows whether the user has agreed to the terms of service for using the Word Trip app.</p>
+<p style="margin-left: 30px;">Figure 19 below reveals that the ZACCOUNTPROPERTY table shows whether the user has agreed to the terms of service for using the Word Trip app.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 19:</strong></p>
 <img src="/img/P12.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">Also, as shown in Figures x and x below, analysis of the ObservedDomains table reveals that the Word Trip app collects and accesses Internet domains, as recorded in the figure. Several registrable domains were identified, illustrating the endpoints the app communicates with. The figure also indicates whether data transmissions are secure and highlights any potential risks associated with insecure communication channels. I manually verified each domain by visiting the listed websites and confirmed that all were secure and did not pose a risk of insecure communication.</p>
+<p style="margin-left: 30px;">Also, as shown in Figures 20 and 21 below, analysis of the ObservedDomains table reveals that the Word Trip app collects and accesses Internet domains, as recorded in the figure. Several registrable domains were identified, illustrating the endpoints the app communicates with. The figure also indicates whether data transmissions are secure and highlights any potential risks associated with insecure communication channels. I manually verified each domain by visiting the listed websites and confirmed that all were secure and did not pose a risk of insecure communication.</p>
 
 <p style="margin-left: 30px;">The “hadUserInteraction” field, when set to “1,” indicates that the iPhone user directly interacted with a site—for example, by clicking a link or advertisement within the app that triggered a request to that domain. A value of “0” suggests that the Word Trip application initiated contact with the domain without user interaction, likely as part of background processes or core application functionality.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 20:</strong></p>
 <img src="/img/P13.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 21:</strong></p>
 <img src="/img/P14.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">As shown in Figure x, the Word Trip app collects the dates it was launched, as recorded in the 'OperatingDates' table.</p>
+<p style="margin-left: 30px;">As shown in Figure 22, the Word Trip app collects the dates it was launched, as recorded in the 'OperatingDates' table.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 22:</strong></p>
 <img src="/img/P14b.JPG" alt="IP" width="450" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">The flutter-9-HistoricalClient.json file, located at App Document > AppDomain-com.littleengine.wortreat > Documents, primarily logs timestamps of various user interactions within the Word Trip app. It also contains a section labeled crashesDataPerDauDay, which appears to track crash-related metrics on a per-user, per-day basis.</p>
 
-<p style="margin-left: 30px;"><strong>Figure 2:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 23:</strong></p>
 <img src="/img/P15.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 24:</strong></p>
 <img src="/img/P15d.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 
@@ -299,32 +299,32 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - **Usage patterns:** The privacy policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
       - **Evidence of insecure endpoints or risks:** There is no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
 
-<p style="margin-left: 30px;">Figure x also shows that the web browser version used to access the app-related sites is being collected.</p>
+<p style="margin-left: 30px;">Figure 25 also shows that the web browser version used to access the app-related sites is being collected.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 25:</strong></p>
 <img src="/img/P8.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">In addition to the data being logged as listed in the Device Information, further metadata—including application launch timestamps, epoch-based activity markers, and advertising telemetry such as ad unit identifiers, skip timing parameters, and mediation flags—was primarily extracted through Autopsy’s plist analysis. These records indicate persistent behavioral tracking and highlight the app’s capacity for device fingerprinting through embedded SDKs such as Unity Ads and AppLovin.</p>
 
 <p style="margin-left: 30px;">The flutter-adwallV2_global.json file, located at App Document > AppDomain-com.littleengine.wortreat > Documents, logs ad- and quest-related configuration data—including publication dates, quest IDs, and image or domain URLs—that the Word Trip app downloaded and presented to the user.</p>
 
-<p style="margin-left: 30px;"><strong>Figure 8:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 26:</strong></p>
 <img src="/img/P15.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 27:</strong></p>
 <img src="/img/P15c.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">The UnityAdsStorage-private-data.json and UnityAdsStorage-public-data.json files, located at App Document > AppDomain-com.littleengine.wortreat > Library > Application Support > UnityAds, contains device and session metadata collected by the Unity Ads SDK. This includes the OS version, app version, session identifiers, device information, and the advertising tracking ID. These identifiers may be used for targeted advertising, and potentially shared or sold to third-party advertising networks for profiling and personalized ad delivery.</p>
 
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 28:</strong></p>
 <img src="/img/P21.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;"><strong>Figure 9:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 29:</strong></p>
 <img src="/img/P20.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">The UnityAdsStorage-public-data.json file revealed a potential privacy and security concern. The "privacy" field is set to "mixed", indicating that the application has only partially implemented privacy protections. This configuration suggests that while some privacy measures are in place, the app still permits certain types of user data tracking and sharing through the Unity Ads framework.</p>
 
-<p style="margin-left: 30px;"><strong>Figure 9:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure 30:</strong></p>
 <img src="/img/P22.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">The inclusion of a third-party mediation service labeled "MAX"—likely referring to AppLovin MAX—suggests that user data may be shared externally for advertising or analytics purposes. This introduces potential risks related to unauthorized data access, user profiling, or third-party tracking. Additionally, the presence of multiple epoch timestamps across various data points indicates that user interactions and system events are being logged, raising further concerns about data retention practices and continuous user activity monitoring.</p>
