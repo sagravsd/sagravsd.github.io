@@ -265,7 +265,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P14b.JPG" alt="IP" width="450" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">The flutter-9-HistoricalClient.json file, located at App Document > AppDomain-com.littleengine.wortreat > Documents, primarily logs timestamps of various user interactions within the Word Trip app. It also contains a section labeled crashesDataPerDauDay, which appears to track crash-related metrics on a per-user, per-day basis.>
+<p style="margin-left: 30px;">The flutter-9-HistoricalClient.json file, located at App Document > AppDomain-com.littleengine.wortreat > Documents, primarily logs timestamps of various user interactions within the Word Trip app. It also contains a section labeled crashesDataPerDauDay, which appears to track crash-related metrics on a per-user, per-day basis.</p>
 
 <p style="margin-left: 30px;"><strong>Figure 2:</strong></p>
 <img src="/img/P15.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
