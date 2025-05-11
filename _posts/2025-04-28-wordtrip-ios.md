@@ -240,6 +240,17 @@ Analysis was conducted in accordance with the objectives specified in the test c
 | **ACLinkedInAppIdKey**       | LinkedIn App ID                                  | LinkedIn App ID used for authenticating with LinkedIn API                         |
 | **ACTencentWeiboAppIdKey**   | Tencent Weibo App ID                             | App ID for Tencent Weibo integration (Chinese social media platform)              |
 
+<p style="margin-left: 30px;">The com-facebook-sdk-AppEventsTimeSpent.json and com-facebook-sdk-PersistedAnonymousID.json files, located at App Document > AppDomain-com.littleengine.wortreat > Library, log app session details and Facebook SDK-related identifiers. These files record the number of app interruptions, the timestamp of the most recent suspension, the current session ID, and the duration (in seconds) of the current session. Additionally, the persistent anonymous ID stored in these files is used in conjunction with the user's Facebook session ID when a Facebook link is clicked within the app. This suggests that Word Tripp can access and utilize the user’s active Facebook session through background processes initiated by in-app interactions.</p>
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P16.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P17.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P18.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
 <p style="margin-left: 30px;">Furthermore, as shown in Figure X below, analysis of the ZACCOUNT table reveals that email addresses are being collected. Although the privacy policy acknowledges this collection, the data is stored in clear text. Please refer to section '1. Personal Information' above. </p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
