@@ -162,7 +162,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** Personal device information is collected only when needed, transmitted securely, and protected; Users can manage or delete their device information when they want.
    - **Artifacts:**
       - **Device identifiers are protected or anonymized:** The privacy policy mentions data protection practices but does not state whether device IDs are anonymized or hashed before storage or transfer. There is no evidence indicating how this is achieved. Evidence indicates that information is sent in clear text.
-      - **Secure transmission of device information:**  As shown in Figure X, the ZACCOUNTPROPERTY table indicates whether a user has agreed to the terms of service for the Word Trip app. Furthermore, the application's privacy policy does not explicitly confirm the use of HTTPS or other secure data transfer protocols. Available evidence suggests that user information is transmitted in clear text, as demonstrated by the artifacts presented.
+      - **Secure transmission of device information:**  As shown in Figure 19, the ZACCOUNTPROPERTY table indicates whether a user has agreed to the terms of service for the Word Trip app. Furthermore, the application's privacy policy does not explicitly confirm the use of HTTPS or other secure data transfer protocols. Available evidence suggests that user information is transmitted in clear text, as demonstrated by the artifacts presented.
 
 <p style="margin-left: 30px;">In addition, the Word Tripp application was found to log multiple device- and user-specific data points, including the iOS version, web user agent strings, IMSI/IMEI numbers, ICCID, phone number, model identifier, and time zone configuration. These artifacts were identified using 3uTools (for hardware and OS-level information) and iLEAPP (for SIM-related identifiers and cellular metadata). Application state transitions, crash event counts, session durations, and timestamps related to app suspension were recovered from plist and SQLite database files, as confirmed via 3uTools and DB Browser for SQLite.</p>
 
@@ -223,7 +223,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure 13:</strong></p>
 <img src="/img/P9.JPG" alt="IP" width="1500" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">Figure x and Table 3 below shows the keys related to social account integration settings used in the Accounts or Social framework on Apple platforms to configure access to social media services. Apps like Word Trip use these keys when requesting access to social accounts configured on the user's device, allowing access to services such as Facebook, LinkedIn, Tencent Weibo, and others.</p>
+<p style="margin-left: 30px;">Figure 14 and Table 3 below shows the keys related to social account integration settings used in the Accounts or Social framework on Apple platforms to configure access to social media services. Apps like Word Trip use these keys when requesting access to social accounts configured on the user's device, allowing access to services such as Facebook, LinkedIn, Tencent Weibo, and others.</p>
 
 <p style="margin-left: 30px;"><strong>Figure 14:</strong></p>
 <img src="/img/P10.JPG" alt="IP" width="450" style="display: block; margin-left: 30px;">
@@ -251,7 +251,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure 17:</strong></p>
 <img src="/img/P18.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
-<p style="margin-left: 30px;">Furthermore, as shown in Figure X below, analysis of the ZACCOUNT table reveals that email addresses are being collected. Although the privacy policy acknowledges this collection, the data is stored in clear text. Please refer to section '1. Personal Information' above. </p>
+<p style="margin-left: 30px;">Furthermore, as shown in Figure 18 below, analysis of the ZACCOUNT table reveals that email addresses are being collected. Although the privacy policy acknowledges this collection, the data is stored in clear text. Please refer to section '1. Personal Information' above. </p>
 
 <p style="margin-left: 30px;"><strong>Figure 18:</strong></p>
 <img src="/img/P11.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
