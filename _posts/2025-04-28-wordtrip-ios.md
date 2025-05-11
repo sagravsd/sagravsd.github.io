@@ -317,13 +317,14 @@ Analysis was conducted in accordance with the objectives specified in the test c
 These were identified via 3uTools and iLEAPP, confirming the app’s access to and retention of sensitive device-level and SIM-related identifiers.
 
 ### Application Behavior Logging
-Through plist and database inspection, the following behavioral data was identified:
+Through plist, json, and database inspection, the following behavioral data was identified:
 
    - App state transitions (e.g., foreground/background changes)
    - Crash event counts
    - Session durations
    - Timestamps for app suspensions
-   - These data points were found in both property list files and SQLite databases, as revealed by analysis with 3uTools and DB Browser for SQLite.
+
+These data points were found in both property list files, json files, and SQLite databases, as revealed by analysis with 3uTools and DB Browser for SQLite.
 
 ### Advertising and Analytics Telemetry
 Additional metadata related to in-app advertising and analytics includes:
