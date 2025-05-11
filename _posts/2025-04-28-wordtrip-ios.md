@@ -299,6 +299,11 @@ Analysis was conducted in accordance with the objectives specified in the test c
       - **Usage patterns:** The privacy policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
       - **Evidence of insecure endpoints or risks:** There is no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
 
+<p style="margin-left: 30px;">Figure x also shows that the web browser version used to access the app-related sites is being collected.</p>
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P8.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
+
 <p style="margin-left: 30px;">In addition to the data being logged as listed in the Device Information, further metadata—including application launch timestamps, epoch-based activity markers, and advertising telemetry such as ad unit identifiers, skip timing parameters, and mediation flags—was primarily extracted through Autopsy’s plist analysis. These records indicate persistent behavioral tracking and highlight the app’s capacity for device fingerprinting through embedded SDKs such as Unity Ads and AppLovin.</p>
 
 <p style="margin-left: 30px;">The flutter-adwallV2_global.json file, located at App Document > AppDomain-com.littleengine.wortreat > Documents, logs ad- and quest-related configuration data—including publication dates, quest IDs, and image or domain URLs—that the Word Trip app downloaded and presented to the user.</p>
@@ -323,11 +328,6 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <img src="/img/P22.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">The inclusion of a third-party mediation service labeled "MAX"—likely referring to AppLovin MAX—suggests that user data may be shared externally for advertising or analytics purposes. This introduces potential risks related to unauthorized data access, user profiling, or third-party tracking. Additionally, the presence of multiple epoch timestamps across various data points indicates that user interactions and system events are being logged, raising further concerns about data retention practices and continuous user activity monitoring.</p>
-
-<p style="margin-left: 30px;">This figure also shows that the web browser version used to access the app-related sites is being collected.</p>
-
-<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P8.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 ## Summary
 ### Device and User Metadata
