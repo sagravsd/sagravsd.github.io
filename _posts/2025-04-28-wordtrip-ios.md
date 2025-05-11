@@ -146,6 +146,15 @@ Analysis was conducted in accordance with the objectives specified in the test c
 | **BIDDER_TOKEN_EXTRAS** | 1743726856: Monday, 5 May 2025 17:47:36 UTC and Monday, 5 May 2025 12:47:36 EST     |
 | **lastRequestedAttributionsDetailsTimeStamp**         | 1743726474660: Monday, 5 May 2025 17:47:54 UTC and Monday, 5 May 2025 12:47:54 EST   |
 
+<p style="margin-left: 30px;">With 3uTools, privacy related information was obtained. The flutter-9-privacy.json file, located at App Document > AppDomain-com.littleengine.wortreat > Documents, logs the app’s handling of user privacy-related actions. It records various request types and associated metadata, including “retrieval request,” retrieval request status, acceptance time, deletion request, deletion status, success time, and opt-out choices. This data appears to be used for tracking and managing user requests related to their personal information—such as data retrieval or deletion—and may also include the user’s stated reason for opting out or requesting data removal.</p>
+
+<p style="margin-left: 30px;"><strong>Figure 8:</strong></p>
+<img src="/img/P15.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;"><strong>Figure 9:</strong></p>
+<img src="/img/P15b.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
+
 
 ### 2. Device Information
    - **Objective:** Ensure device information is collected and used securely. 
@@ -272,10 +281,14 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">In addition to the data being logged as listed in the Device Information, further metadata—including application launch timestamps, epoch-based activity markers, and advertising telemetry such as ad unit identifiers, skip timing parameters, and mediation flags—was primarily extracted through Autopsy’s plist analysis. These records indicate persistent behavioral tracking and highlight the app’s capacity for device fingerprinting through embedded SDKs such as Unity Ads and AppLovin.</p>
 
+<p style="margin-left: 30px;">The flutter-adwallV2_global.json file, located at App Document > AppDomain-com.littleengine.wortreat > Documents, logs ad- and quest-related configuration data—including publication dates, quest IDs, and image or domain URLs—that the Word Trip app downloaded and presented to the user.</p>
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P15c.JPG" alt="IP" width="550" style="display: block; margin-left: 30px;">
+
 <p style="margin-left: 30px;">This figure also shows that the web browser version used to access the app-related sites is being collected.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-
 <img src="/img/P8.JPG" alt="IP" width="750" style="display: block; margin-left: 30px;">
 
 ## Summary
