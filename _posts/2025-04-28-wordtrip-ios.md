@@ -152,7 +152,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <img src="/img/P15.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;"><strong>Figure 9:</strong></p>
-<img src="/img/P15b.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+<img src="/img/P15b.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 
 
@@ -283,8 +283,11 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">The flutter-adwallV2_global.json file, located at App Document > AppDomain-com.littleengine.wortreat > Documents, logs ad- and quest-related configuration data—including publication dates, quest IDs, and image or domain URLs—that the Word Trip app downloaded and presented to the user.</p>
 
+<p style="margin-left: 30px;"><strong>Figure 8:</strong></p>
+<img src="/img/P15.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
-<img src="/img/P15c.JPG" alt="IP" width="550" style="display: block; margin-left: 30px;">
+<img src="/img/P15c.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">This figure also shows that the web browser version used to access the app-related sites is being collected.</p>
 
