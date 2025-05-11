@@ -176,7 +176,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** A map or list of locations visited, along with timestamps indicating when the user was at each location.
    - **Artifacts:**
       - The privacy policy intentionally limits location collection to only the minimum necessary (approximate via IP).
-      - Location Access Evidence: The evidence in figures x through x shows that the Word Trip app has access to location services and may record data such as IP-based approximate location and possibly GPS data. As a result, location data is be accessible through app logs and system files.
+      - Location Access Evidence: The evidence in figures 10 through 12 shows that the Word Trip app has access to location services and may record data such as IP-based approximate location and possibly GPS data. As a result, location data is be accessible through app logs and system files.
       - Timestamps: The presence of timestamps (like ts: 1743726856) associated with app launches or IP addresses allows for some behavioral correlation with time.
 
 <p style="margin-left: 30px;">Based on analysis of the x-bplist file, the Word Trip app collects metadata including the user's IP address, web browser data, and iOS version. This is evident in the BIDDER_TOKEN_EXTRAS key, which contains a JSON-like string such as {"ip": "96.255.xx.xxx", "ts": 1743726856}. The IP address allows the app to estimate the user’s general location via geolocation techniques, potentially down to the city or neighborhood level.</p>
@@ -294,7 +294,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
    - **Expected Outcome:** A list of relevant data not otherwise defined that can demonstrate insecure endpoints or risks associated with using the app.
    - **Artifacts:**
       - **App activity logs (e.g., timestamps, usage):** The privacy policy mentions collecting gameplay data, interactions with others, and performance/debugging information. However, it does not clarify whether detailed timestamps or event-level logs are captured.
-      - **Browser details:** The privacy policy does not mention the collection of browser-specific data (e.g., browser information, user agent strings, or visited URLs). However, Figures X, X, and X show that this type of data is being collected.  
+      - **Browser details:** The privacy policy does not mention the collection of browser-specific data (e.g., browser information, user agent strings, or visited URLs). However, Figures 20, 21, and 25 show that this type of data is being collected.  
       - **Account data:** The privacy policy references that player name, profile, contact info, game account details, and purchase history are collected.  
       - **Usage patterns:** The privacy policy mentions using analytics to monitor gameplay and interactions, but does not specify granularity (e.g., session logs, clickstreams).  
       - **Evidence of insecure endpoints or risks:** There is no mention of analyzing or disclosing potentially insecure endpoints, nor any user-facing tools to review such risks. Also, there is no evidence to suggest otherwise.
