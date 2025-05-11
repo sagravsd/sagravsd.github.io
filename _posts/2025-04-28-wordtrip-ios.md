@@ -184,12 +184,12 @@ Analysis was conducted in accordance with the objectives specified in the test c
 
 <p style="margin-left: 30px;">The ZProcess table in System > WirelessDomain > Library > Databases shows entries such as ZBUNDLENAME = "com.apple.datausage" and ZPROCNAME values containing "locationd", referring to the iOS daemon responsible for handling location services. This contextualizes how location access is managed at the system level.</p>
 
-     <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P26.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
      The csidata file at System > WirelessDomain > Library > Preferences contains flags like "VoWiFiLocationEvaluated", "WifiCallingLocationAuthorization", "SimInfo", and "GsmSettingsModel", suggesting the device and its apps—such as Word Trip—are configured to interface with location services.
 
-     <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P27.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
 
 <p style="margin-left: 30px;">In conclusion, coordinate logs extracted from Apple’s location caches confirm that Word Trip has accessed or at least been granted permissions to request GPS location data under both "When In Use" and "Always" settings.</p>
