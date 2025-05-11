@@ -309,6 +309,21 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P15c.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
+<p style="margin-left: 30px;">The UnityAdsStorage-private-data.json and UnityAdsStorage-public-data.json files, located at App Document > AppDomain-com.littleengine.wortreat > Library > Application Support > UnityAds, contains device and session metadata collected by the Unity Ads SDK. This includes the OS version, app version, session identifiers, device information, and the advertising tracking ID. These identifiers may be used for targeted advertising, and potentially shared or sold to third-party advertising networks for profiling and personalized ad delivery.</p>
+
+<p style="margin-left: 30px;"><strong>Figure x:</strong></p>
+<img src="/img/P21.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;"><strong>Figure 9:</strong></p>
+<img src="/img/P20.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;">The UnityAdsStorage-public-data.json file revealed a potential privacy and security concern. The "privacy" field is set to "mixed", indicating that the application has only partially implemented privacy protections. This configuration suggests that while some privacy measures are in place, the app still permits certain types of user data tracking and sharing through the Unity Ads framework.</p>
+
+<p style="margin-left: 30px;"><strong>Figure 9:</strong></p>
+<img src="/img/P22.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
+
+<p style="margin-left: 30px;">The inclusion of a third-party mediation service labeled "MAX"—likely referring to AppLovin MAX—suggests that user data may be shared externally for advertising or analytics purposes. This introduces potential risks related to unauthorized data access, user profiling, or third-party tracking. Additionally, the presence of multiple epoch timestamps across various data points indicates that user interactions and system events are being logged, raising further concerns about data retention practices and continuous user activity monitoring.</p>
+
 <p style="margin-left: 30px;">This figure also shows that the web browser version used to access the app-related sites is being collected.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
