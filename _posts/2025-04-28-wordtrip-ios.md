@@ -187,7 +187,7 @@ Analysis was conducted in accordance with the objectives specified in the test c
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P26.JPG" alt="IP" width="850" style="display: block; margin-left: 30px;">
 
-     The csidata file at System > WirelessDomain > Library > Preferences contains flags like "VoWiFiLocationEvaluated", "WifiCallingLocationAuthorization", "SimInfo", and "GsmSettingsModel", suggesting the device and its apps—such as Word Trip—are configured to interface with location services.
+<p style="margin-left: 30px;">The csidata file at System > WirelessDomain > Library > Preferences contains flags like "VoWiFiLocationEvaluated", "WifiCallingLocationAuthorization", "SimInfo", and "GsmSettingsModel", suggesting the device and its apps—such as Word Trip—are configured to interface with location services.</p>
 
 <p style="margin-left: 30px;"><strong>Figure x:</strong></p>
 <img src="/img/P27.JPG" alt="IP" width="650" style="display: block; margin-left: 30px;">
