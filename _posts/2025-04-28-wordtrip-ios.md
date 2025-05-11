@@ -73,6 +73,7 @@ Due to the kind and amount of data in the iOS image, we used multiple software f
 | **iBackupViewer**          | 7.65.0.247 | View iOS device backups    |
 | **iLeapp**| v1.5.1    | Analyzing image, Protobuf parsing                  |
 | **3uTools**           | 1.9.7      | View iOS device backups               |
+| **JSON Formatter**           |      | Formatting, validating, and viewing JSON data    |
 
 ## Testing and Analysis
 
@@ -375,4 +376,5 @@ Below is a list of software tools utilized for analysis and the collection of re
 | **iBackupViewer**        | https://ibackupviewer.com/           |
 | **iLeapp**               | https://github.com/abrignoni/iLEAPP |
 | **3uTools**              | https://www.3u.com/|
+| **JSON Formatter**       | https://jsonformatter.org/ |
 
